@@ -1,0 +1,180 @@
+#VAR(credits, TABLE)
+#ADDTBL("scripts\sf-credits.tbl", credits)
+#ACTIVETBL(credits)
+
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "LOROM00", 0, 16)
+
+// DATA RANGE IS $A48DA-$A4E25 BUT SCORING NUMBERS AND PERCENTS SIT $A4BD0-
+// $A4DE3 AND $A4E04-$A4E25. USE JMP TO MOVE AROUND THEM RATHER THAN REMAP.
+
+#HDR(0)
+#JMP($A48DA, $A4BCF)
+
+#WRITE(Ptr, $26A34)
+#WRITE(Ptr, $6F7E1)
+nintendo<END>
+
+#WRITE(Ptr, $6F7F7)
+prezentas<END>
+
+// STAR FOX
+#WRITE(Ptr, $26A10)
+<$29><$2A><$2B><$2C><$2D><$2E><$2F><$30><$31><$32><END>
+
+#WRITE(Ptr, $6F471)
+prezentita<END>
+
+#WRITE(Ptr, $6F48B)
+#WRITE(Ptr, $6F5B0)
+#WRITE(Ptr, $6F76A)
+de<END>
+
+#WRITE(Ptr, $6F4B8)
+plenuma produktanto<END>
+
+#WRITE(Ptr, $6F4D0)
+hiroshi yamauchi<END>
+
+#WRITE(Ptr, $6F4EF)
+produktanto<END>
+
+#WRITE(Ptr, $6F507)
+shigeru miyamoto<END>
+
+#WRITE(Ptr, $6F526)
+reqisoro<END>
+
+#WRITE(Ptr, $6F53E)
+katsuya eguchi<END>
+
+#WRITE(Ptr, $6F55D)
+helpanta reqisoro<END>
+
+#WRITE(Ptr, $6F575)
+yoichi yamada<END>
+
+#WRITE(Ptr, $6F594)
+programita<END>
+
+#WRITE(Ptr, $6F5C8)
+dylan cuthbert<END>
+
+#WRITE(Ptr, $6F5E4)
+giles goddard<END>
+
+#WRITE(Ptr, $6F600)
+krister wombell<END>
+
+#WRITE(Ptr, $6F61F)
+3d-sistemo<END>
+
+#WRITE(Ptr, $6F637)
+pete warnes<END>
+
+#WRITE(Ptr, $6F653)
+carl graham<END>
+
+#WRITE(Ptr, $6F672)
+grafika fasonisto<END>
+
+#WRITE(Ptr, $6F68A)
+takaya imamura<END>
+
+#WRITE(Ptr, $6F6A9)
+fasonisto de formoj<END>
+
+#WRITE(Ptr, $6F6C1)
+tsuyoshi watanabe<END>
+
+#WRITE(Ptr, $6F6E0)
+sonefektoj<END>
+
+#WRITE(Ptr, $6F6F8)
+koji kondo<END>
+
+#WRITE(Ptr, $6F717)
+komponisto<END>
+
+#WRITE(Ptr, $6F72F)
+hajime hirasawa<END>
+
+#WRITE(Ptr, $6F74E)
+helpita<END>
+
+#WRITE(Ptr, $6F786)
+argonaut software<END>
+
+#WRITE(Ptr, $6F217)
+laboristaro pri super fx<END>
+
+#WRITE(Ptr, $6F22F)
+jez san<END>
+
+#WRITE(Ptr, $6F24B)
+ben cheese<END>
+
+#WRITE(Ptr, $6F267)
+richard clucas<END>
+
+#WRITE(Ptr, $6F283)
+satoshi nishiumi<END>
+
+#WRITE(Ptr, $6F29F)
+hironobu kakui<END>
+
+#WRITE(Ptr, $6F2BE)
+subteno pri programado<END>
+
+#WRITE(Ptr, $6F2D6)
+yasunari nishida<END>
+
+#WRITE(Ptr, $6F2F2)
+yasuhiro kawaguchi<END>
+
+#WRITE(Ptr, $6F30E)
+shigeki yamashiro<END>
+
+#WRITE(Ptr, $6F32D)
+subteno pri la angla<END>
+
+#WRITE(Ptr, $6F345)
+dan owsen<END>
+
+#WRITE(Ptr, $6F361)
+tony harman<END>
+
+#WRITE(Ptr, $6F37D)
+jon dean<END>
+
+#WRITE(Ptr, $6F399)
+ian crowther<END>
+
+#WRITE(Ptr, $6F3B8)
+subteno pri la japana<END>
+
+#WRITE(Ptr, $6F3D0)
+keizo kato<END>
+
+#WRITE(Ptr, $6F3EC)
+takao shimizu<END>
+
+#WRITE(Ptr, $6F408)
+masato kimura<END>
+
+#WRITE(Ptr, $6F424)
+hajime yajima<END>
+
+#WRITE(Ptr, $6F440)
+kenji yamamoto<END>
+
+#WRITE(Ptr, $167AF)
+#WRITE(Ptr, $1691B)
+suma poentaro<END>
+
+#WRITE(Ptr, $1686B)
+#WRITE(Ptr, $169B9)
+procenta poentaro<END>
+
+//#WRITE(Ptr, $165BC)
+//sceno<END>
