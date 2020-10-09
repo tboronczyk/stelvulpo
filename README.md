@@ -11,19 +11,39 @@ You *must* own a physical copy of the Star Fox cartridge. Downloading the ROM of
 
 ## Development
 
-  * [HexEdit](http://www.hexedit.com) - hex editor
+The following software is used during development:
+
+  * your prefered hex editor
   * [bsnes-plus](https://github.com/devinacker/bsnes-plus) - debugger
-  * [Monkey Moore](http://www.romhacking.net/utilities/513) - relative search utility
-  * [Atlas](http://www.romhacking.net/utilities/224) - script insertion utility
-  * [YY-Chr](http://www.romhacking.net/utilities/958) - graphic editor
+  * [Monkey Moore](https://www.romhacking.net/utilities/513) - relative search utility
+  * [Cartographer](https://www.romhacking.net/utilities/647) - script extraction utility
+  * [Atlas](https://www.romhacking.net/utilities/224) - script insertion utility
+  * [YY-Chr](https://www.romhacking.net/utilities/958) - graphic editor
   * [SnesGFX](https://www.smwcentral.net/?p=section&a=details&id=6523) graphic format converter
-  * [SNESSOR](http://www.romhacking.net/utilities/47) - sound utility
-  * [Lunar Address](http://www.romhacking.net/utilities/26) - address converter
-  * [Lunar Compress](http://www.romhacking.net/utilities/330) - graphic compression utilities
-  * [Checksum Recalculator](http://www.romhacking.net/utilities/499) - checksum utility
-  * [Lunar IPS](http://www.romhacking.net/utilities/240) - patching utility
+  * [snesbrr](https://www.smwcentral.net/?p=section&a=details&id=8976) - sound utility
+  * [Lunar Address](https://www.romhacking.net/utilities/26) - address converter
+  * [Lunar Compress](https://www.romhacking.net/utilities/330) - graphic compression utilities
+  * [Checksum Recalculator](https://www.romhacking.net/utilities/499) - checksum utility
+  * [Lunar IPS](https://www.romhacking.net/utilities/240) - patching utility
+  * [Star Fox 2 Font Tools](https://www.romhacking.net/utilities/346) - encode/decoding utilities
+  * [Audacity](https://www.audacityteam.org/) - to edit sound files
+
+Most of the above utilities run on Windows but the `build.sh` script invokes unix/Linux utilities as well. You can either use [Cygwin](http://cygwin.com) to run the build script on Windows or [Wine](https://winehq.org) to run the utilities on non-Windows platforms.
+
+### Docker
+
+For those fond of [Docker](https://docker.com), the included `Dockerfile` creates a basic development image based on Ubuntu 20.04.
+
+  * Build Docker image 
+
+      `docker build -t sfox - < Dockerfile`
+
+  * Run docker container (assumes X11/XQuartz/Xming)
+
+      `docker run --rm -it -v "$PWD:/sfox" -w /stfox -e DISPLAY=host.docker.internal:0 sfox bash`
 
 ## To Do  
+
 The following tasks are still outstanding (in approximate order of importance).
 **Contributors are welcome!**
 
