@@ -27,7 +27,6 @@ You *must* own a physical copy of the Star Fox cartridge. Downloading the ROM of
 The following tasks are still outstanding (in approximate order of importance).
 **Contributors are welcome!**
 
-  * Finalize the remaining [translation strings](https://docs.google.com/document/d/133pLVGV_iO6QGnhsBAMjko0IhzzNd3Y39BQl-5cnvKw/edit)
   * Modify in-game HUD (enemy shields)
   * Modify TRAINING, SCRAMBLE, SCENE sprites
   * Modify "Game Over" artwork

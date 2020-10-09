@@ -25,7 +25,7 @@
 <$0E>%<END>
 
 #WRITE(Ptr, $16E03)
-<$0E>WIRMILOJ DE KOMPANOJ<END>
+<$0E>WIRMILOJ DE SKIPANOJ<END>
 
 #WRITE(Ptr, $16BAD)
 <$0E>GLITQJO<END>
@@ -66,10 +66,10 @@
 <$02><$02><$0E>mi estas kun vi, foks''<END>
 
 // [Falco]
-<$02><$00><$0E>bogey on my six!!<END>
+<$02><$00><$0E>iu sekvas min''<END>
 
 // [Falco]
-<$02><$02><$0E>mind your own business, fox!!<END>
+<$02><$02><$0E>zorgu pri viaj propraj aferoj, foks''<END>
 
 // [Falco]
 <$02><$01><$0E>iu pafis min'' mi mortas''''<END>
@@ -84,7 +84,7 @@
 <$02><$02><$0E>vi povas kuri, sed vi ne povas kawi vin''<END>
 
 // [Falco]
-<$02><$02><$0E>mi pafos tiun''<END>
+<$02><$02><$0E>mi pafos xin''<END>
 
 // [Falco]
 <$02><$00><$0E>atentu, foks''<END>
@@ -96,7 +96,7 @@
 <$02><$02><$0E>jen ili venas''<END>
 
 // [Falco]
-<$82><$02><$0E>malplilongigu la kolon kaj la voston, foks''<END>
+<$82><$02><$0E>malplilongigu la kolon kaj voston, foks''<END>
 
 // [Falco]
 <$82><$02><$0E>forpafu la brakojn por trafi la korpon''<END>
@@ -115,20 +115,20 @@
 <$02><$02><$0E>hej'' mi pafus tiun''<END>
 
 // [Falco]
-<$02><$02><$0E>bogies, i'm comin' through!!<END>
+<$02><$02><$0E>movixu'' mi pafas''<END>
 
 // [Falco (unused)]
 //<$02><$02><$0E>i'll cover your tail!!<END>
 <$00><$00><$00><END>
 
 // [Peppy]
-<$01><$02><$0E>yeah - let's go!!<END>
+<$01><$02><$0E>jes ja - ek''<END>
 
 // [Peppy]
-<$01><$02><$0E>i'm behind you, fox!!<END>
+<$01><$02><$0E>mi sekvas vin, foks''<END>
 
 // [Peppy]
-<$01><$00><$0E>get lost, you fiend!!<END>
+<$01><$00><$0E>perdixu, fiulo''<END>
 
 // [Peppy]
 <$01><$02><$0E>jes ja - ek''<END>
@@ -143,10 +143,10 @@
 <$01><$02><$0E>mi trafis'' mi trafis''<END>
 
 // [Peppy]
-<$01><$02><$0E>take this, enemy brute!!<END>
+<$01><$02><$0E>gustumu mian pafilon''<END>
 
 // [Peppy]
-<$01><$02><$0E>you're not getting away!!<END>
+<$01><$02><$0E>vi ne eskapos de mi''<END>
 
 // [Peppy]
 <$01><$00><$0E>Pli zorge pafu, foks''<END>
@@ -158,7 +158,7 @@
 <$01><$02><$0E>venas malamikaj wipoj''<END>
 
 // [Peppy]
-<$81><$02><$0E>malplilongigu la kolon kaj la voston, foks''<END>
+<$81><$02><$0E>malplilongigu la kolon kaj voston, foks''<END>
 
 // [Peppy]
 <$81><$02><$0E>forpafu la brakojn por trafi la korpon''<END>
@@ -178,7 +178,7 @@
 <$00><$00><$00><END>
 
 // [Peppy]
-<$01><$02><$0E>out of my way!!<END>
+<$01><$02><$0E>movixu''<END>
 
 // [Peppy (unused)]
 //<$01><$02><$0E>i'm off your starboard!!<END>
@@ -200,43 +200,44 @@
 <$03><$01><$0E>ne'' ne'' kkvvaakk''<END>
 
 // [Slippy]
-<$03><$02><$0E>mi pafos tiun'' kvak''<END>
+<$03><$02><$0E>mi pafos xin'' kvak''<END>
 
 // [Slippy]
-<$03><$02><$0E>piece of c-c-cake!!<END>
+<$03><$02><$0E>tre f-f-facila''<END>
 
 // [Slippy]
-<$03><$02><$0E>take this, j-j-junk heap!!<END>
+<$03><$02><$0E>g-g-gustumu la malvenkon''<END>
 
 // [Slippy]
 <$03><$02><$0E>mi pafos qi tiun'' kvak''<END>
 
 // [Slippy]
-<$03><$00><$0E>hey!! it's me, slippy!!<END>
+<$03><$00><$0E>hej'' estas mi, glitqjo''<END>
 
 // [Slippy]
-<$03><$02><$0E>ribbit!!  i'm hit!!!!<END>
+<$03><$02><$0E>kvak'' iu pafis min''''<END>
 
 // [Slippy]
-<$03><$02><$0E>there's too many of them!!<END>
+<$03><$02><$0E>ili estas tro multaj''<END>
 
 // [Slippy]
-<$03><$02><$0E>let's turn back, okay?!!<END>
+<$03><$02><$0E>qu ni ritirixu?''<END>
 
 // [Slippy]
-<$03><$02><$0E>let's be careful!!<END>
+<$03><$02><$0E>ni estu zorgemaj''<END>
 
 // [Slippy]
-<$03><$02><$0E>something's sticking to me!!<END>
+<$03><$02><$0E>io alkroqixas al mi''<END>
 
-// [Slippy]
-<$03><$02><$0E>i c-c-couldn't go, fox!!<END>
+// [Slippy (unused)]
+//<$03><$02><$0E>i c-c-couldn't go, fox!!<END>
+<$00><$00><$00><END>
 
 // [Slippy]
 <$03><$02><$0E>hej'' ne estu t-t-tiel avida''<END>
 
 // [Slippy]
-<$03><$02><$0E>c-c-clear out, astro-geeks!!<END>
+<$03><$02><$0E>ni venkos''<END>
 
 // [Slippy (unused)]
 //<$03><$02><$0E>hope there's no more!!<END>
@@ -301,13 +302,13 @@
 <$02><$02><$0E>estu pli zorgema, foks''<END>
 
 // [Peppy]
-<$01><$02><$0E>please tread carefully, fox!!<END>
+<$01><$02><$0E>zorgeme anta!!enixu, foks''<END>
 
 // [Slippy]
 <$03><$00><$0E>memoru ne pafi m-m-min''<END>
 
 // [Falco]
-<$02><$00><$0E>it's going pretty badly!!<END>
+<$02><$00><$0E>estas malbone''<END>
 
 // [Peppy]
 <$01><$00><$0E>mi timas, ke mi mortos''<END>
@@ -319,7 +320,7 @@
 <$00><$02><$0E>teamo stelvulpo, nia lasta rimedo estas kontra!!ataki venenon'' bonan wancon''<END>
 
 // [Scene]
-<$00><$02><$0E>fortoj de androso intencas konstrui militbazon en tiu areo'' detruu ilian rokpulvigilon''<END>
+<$00><$02><$0E>la armeo de androso intencas konstrui militbazon en qi tiu loko'' detruu ilian rokpulvigilon''<END>
 
 // [Scene]
 <$00><$02><$0E>la kosma militwiparo konsistas el fortaj batalsipoj'' detruu iliajn fontojn de energio''<END>
@@ -383,26 +384,26 @@
 <$00><$02><$0E>premu l a!! r por eskapi de la malamika batalwipa tirrado'' vi kapablas, foks''<END>
 
 // [Scene]
-<$00><$02><$0E>andross has taken control of the huge creatures who live on fortuna!!  take care, fox!!<END>
+<$00><$02><$0E>androso prenis kontrolon de la grandaj bestoj de fortuno'' estu zorgema, foks''<END>
 
 // [Scene]
 <$00><$02><$0E>via teamo bone progresas, foks'' mi esperas, ke vi zorgas pri miaj arvingoj'' iru al makbeto''
 <END>
 
 // [Scene]
-<$00><$02><$0E>the hollow interior of macbeth is ideal for a base!!  prevent andross from building here!!<END>
+<$00><$02><$0E>la kava interno de makbeto tre ta!!gas por militbazo'' malebligu, ke androso konstruos tie''<END>
 
 // [Scene]
 <$00><$02><$0E>jen la kosma tombejo, kreita de la eksperimentoj de androso, kie malaperis via patro, foks''<END>
 
 // [Scene]
-<$00><$02><$0E>is everyone all right, fox?!!  you're on course to sneak into venom's back door!!<END>
+<$00><$02><$0E>qu qiuj bonstatas, foks?'' vi kawe alvenas al la bazo de veneno''<END>
 
 // [Scene]
 <$00><$02><$0E>respondu, arvingoj'' kie vi estas, foks?'' ni bezonas vin protekti kornerion''<END>
 
 // [Scene]
-<$00><$02><$0E>you've made it this far... it's your fate to destroy andross!!  we're counting on you, fox!!<END>
+<$00><$02><$0E>vi persistis xis nun... via sorto estas venki androson'' ni dependas je vi, foks''<END>
 
 // [Falco]
 <$82><$02><$0E>mi detruos la aviportan wipon''<END>
@@ -420,16 +421,16 @@
 <$84><$02><$0E>ho... vi tre kapablas, foks''<END>
 
 // [Pepper]
-<$84><$02><$0E>vi sukcesis'' iru alfronti la malamikon''<END>
+<$84><$02><$0E>vi sukcesis'' nun alfrontu la malamikon''<END>
 
 // [Slippy]
 <$83><$02><$0E>premu start por reveni al la ludo, kvak''<END>
 
 // [Falco]
-<$82><$02><$0E>mi ne kredas,  ke pipro devas testi nin''<END>
+<$82><$02><$0E>mi ne kredas,  ke pipro volas testi nin''<END>
 
 // [Pepper]
-<$84><$02><$0E>mi beda!!ras, ke mi dubis vin'' premu start''<END>
+<$84><$02><$0E>pardonu min pro mia dubo'' premu start''<END>
 
 // [Andross]
 <$85><$02><$0E>foks, vi estas respektinda kontra!!ulo...<END>
