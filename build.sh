@@ -73,12 +73,12 @@ dd if=asm/blank.bin of="$ROM" conv=notrunc bs=1 seek=684686 count=456
 "$ENCODE" gfx/0A7456.bin "$ROM" A7456
 
 echo "\nUpdating sound files..."
-#dd if=sfx/C6D31.brr of="$ROM" conv=notrunc bs=1 seek=814385 count=2070
-#dd if=sfx/C7547.brr of="$ROM" conv=notrunc bs=1 seek=816455 count=531
-#dd if=sfx/C775A.brr of="$ROM" conv=notrunc bs=1 seek=816986 count=1962
-#dd if=sfx/C7F0D.brr of="$ROM" conv=notrunc bs=1 seek=818957 count=2160
-#dd if=sfx/C877D.brr of="$ROM" conv=notrunc bs=1 seek=821117 count=927
-#dd if=sfx/C8FC9.brr of="$ROM" conv=notrunc bs=1 seek=823241 count=1449
+dd if=sfx/C6D31.brr of="$ROM" conv=notrunc bs=1 seek=814385 count=2070
+dd if=sfx/C7547.brr of="$ROM" conv=notrunc bs=1 seek=816455 count=531
+dd if=sfx/C775A.brr of="$ROM" conv=notrunc bs=1 seek=816986 count=1971
+dd if=sfx/C7F0D.brr of="$ROM" conv=notrunc bs=1 seek=818957 count=2160
+dd if=sfx/C877D.brr of="$ROM" conv=notrunc bs=1 seek=821117 count=927
+dd if=sfx/C8FC9.brr of="$ROM" conv=notrunc bs=1 seek=823241 count=1449
 dd if=sfx/D12B6.brr of="$ROM" conv=notrunc bs=1 seek=856758 count=6183
 dd if=sfx/D2ADD.brr of="$ROM" conv=notrunc bs=1 seek=862941 count=9279
 dd if=sfx/D791F.brr of="$ROM" conv=notrunc bs=1 seek=882975 count=11250

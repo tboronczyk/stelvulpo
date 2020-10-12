@@ -19,7 +19,7 @@ The following software is used during development:
   * [Cartographer](https://www.romhacking.net/utilities/647) - script extraction utility
   * [Atlas](https://www.romhacking.net/utilities/224) - script insertion utility
   * [YY-Chr](https://www.romhacking.net/utilities/958) - graphic editor
-  * [SnesGFX](https://www.smwcentral.net/?p=section&a=details&id=6523) graphic format converter
+  * [SnesGFX](https://www.smwcentral.net/?p=section&a=details&id=6523) - graphic format converter
   * [snesbrr](https://www.smwcentral.net/?p=section&a=details&id=8976) - sound utility
   * [Lunar Address](https://www.romhacking.net/utilities/26) - address converter
   * [Lunar Compress](https://www.romhacking.net/utilities/330) - graphic compression utilities
@@ -49,6 +49,7 @@ The following tasks are (more or less) complete.
   * Modify font files for esperanto letters
   * Translate and replace dialog, enemy, and credits text
   * Start, settings, level select, and continue screens
+  * Replace sound files
 
 ## To Do  
 
@@ -56,7 +57,6 @@ The following tasks are still outstanding (in approximate order of importance).
 **Contributors are welcome!**
 
   * Modify in-game HUD (enemy shields)
-  * Replace sound files
   * Modify TRAINING, SCRAMBLE, SCENE sprites
   * Modify "Game Over" artwork
   * Build/patching documentation
