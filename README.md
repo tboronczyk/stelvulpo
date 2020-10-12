@@ -42,17 +42,25 @@ For those fond of [Docker](https://docker.com), the included `Dockerfile` create
 
       `docker run --rm -it -v "$PWD:/sfox" -w /stfox -e DISPLAY=host.docker.internal:0 sfox bash`
 
+## Completed
+
+The following tasks are (more or less) complete.
+
+  * Modify font files for esperanto letters
+  * Translate and replace dialog, enemy, and credits text
+  * Start, settings, level select, and continue screens
+
 ## To Do  
 
 The following tasks are still outstanding (in approximate order of importance).
 **Contributors are welcome!**
 
   * Modify in-game HUD (enemy shields)
+  * Replace sound files
   * Modify TRAINING, SCRAMBLE, SCENE sprites
   * Modify "Game Over" artwork
-  * Replace sound files
   * Build/patching documentation
-  
+
 ## Screenshots
 ![Intro screen](images/starfox-20171205-011707-sm.png)
 
