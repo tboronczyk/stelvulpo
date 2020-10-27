@@ -13,7 +13,7 @@
 <$0E>PA+ZITA<END>
 
 #WRITE(Ptr, $16C5D)
-<$0E>SUMA POENTARO<END>
+<$0E>TOTALA POENTARO<END>
 
 #WRITE(Ptr, $16D1B)
 <$0E>POENTARO<END>
@@ -81,7 +81,7 @@
 <$02><$02><$0E>venas pli da malamikoj''<END>
 
 // [Falco]
-<$02><$02><$0E>vi povas kuri, sed vi ne povas kawi vin''<END>
+<$82><$02><$0E>vi povas kuri, sed vi ne povas kawi vin''<END>
 
 // [Falco]
 <$02><$02><$0E>mi pafos xin''<END>
@@ -173,9 +173,8 @@
 //<$01><$02><$0E>pick me up on your way back!!<END>
 <$00><$00><$00><END>
 
-// [Peppy (unused?)]
-//<$01><$02><$0E>hej, mi pafus tiun''<END>
-<$00><$00><$00><END>
+// [Peppy]
+<$01><$02><$0E>hej, mi pafus tiun''<END>
 
 // [Peppy]
 <$01><$02><$0E>movixu''<END>
@@ -194,7 +193,7 @@
 <$03><$00><$0E>kvak'' helpu min''<END>
 
 // [Slippy]
-<$03><$02><$0E>kvak'' dankon pro la savo''<END>
+<$03><$02><$0E>kvak'' dankon pro la helpo''<END>
 
 // [Slippy]
 <$03><$01><$0E>ne'' ne'' kkvvaakk''<END>
