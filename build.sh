@@ -3,7 +3,7 @@
 set -e
 
 WINE="wine"
-ATLAS="/opt/Atlasv1.11/Atlas.exe"
+ATLAS="/opt/Atlas/Atlas.exe"
 ENCODE="/opt/Star Fox 2 Font Tools/sf2_encode"
 
 if [ "$#" -ne 1 ]; then
