@@ -48,7 +48,9 @@ creates a basic development environment based on Ubuntu 20.04.
 
   * Run docker container (assumes X11/XQuartz/Xming)
 
-      `docker run --rm -it -v "$PWD:/sfox" -w /sfox -e DISPLAY=host.docker.internal:0 sfox bash`
+      `docker run -it -v "$PWD:/sfox" -w /sfox -e DISPLAY=host.docker.internal:0 sfox bash`
+
+  * Run `wineboot` the first time the container is run
 
 ## Completed
 
