@@ -2,16 +2,20 @@
 
 Star Fox in Esperanto
 
-This project translates [Star Fox](http://en.wikipedia.org/wiki/Star_Fox_%28video_game%29), a video game for the Super NES platform, to Esperanto. All copyrights to the original game belong to Nintendo and no infringement is intended.
+This project is a fan translation of
+[Star Fox](http://en.wikipedia.org/wiki/Star_Fox_%28video_game%29), a video
+game for the Super NES platform, to Esperanto. All copyrights to the original
+game belong to Nintendo and no infringement is intended.
 
 ## Requirements
-You *must* own a physical copy of the Star Fox cartridge. Downloading the ROM of any game which you do not own is piracy.
+You *must* own a physical copy of the Star Fox cartridge. Downloading the ROM
+of any game which you do not own is piracy.
 
   * Star Fox - CRC32 `8FC4E6D0`
 
 ## Development
 
-The following software is used during development:
+The following software is used for development:
 
   * your prefered hex editor
   * [bsnes-plus](https://github.com/devinacker/bsnes-plus) - debugger
@@ -28,11 +32,15 @@ The following software is used during development:
   * [Star Fox 2 Font Tools](https://www.romhacking.net/utilities/346) - encode/decoding utilities
   * [Audacity](https://www.audacityteam.org/) - to edit sound files
 
-Most of the above utilities run on Windows but the `build.sh` script invokes unix/Linux utilities as well. You can either use [Cygwin](http://cygwin.com) to run the build script on Windows or [Wine](https://winehq.org) to run the utilities on non-Windows platforms.
+Most of the above utilities run on Windows while the build script `build.sh`
+scripts the final patching and invokes unix/Linux utilities. You can either use
+[Cygwin](http://cygwin.com) to run the build script on Windows or
+[Wine](https://winehq.org) to run the utilities on non-Windows platforms.
 
 ### Docker
 
-For those fond of [Docker](https://docker.com), the included `Dockerfile` creates a basic development image based on Ubuntu 20.04.
+For those fond of [Docker](https://docker.com), the included `Dockerfile`
+creates a basic development environment based on Ubuntu 20.04.
 
   * Build Docker image 
 
@@ -40,7 +48,7 @@ For those fond of [Docker](https://docker.com), the included `Dockerfile` create
 
   * Run docker container (assumes X11/XQuartz/Xming)
 
-      `docker run --rm -it -v "$PWD:/sfox" -w /stfox -e DISPLAY=host.docker.internal:0 sfox bash`
+      `docker run --rm -it -v "$PWD:/sfox" -w /sfox -e DISPLAY=host.docker.internal:0 sfox bash`
 
 ## Completed
 
@@ -62,6 +70,9 @@ The following tasks are still outstanding (in approximate order of importance).
   * Build/patching documentation
 
 ## Screenshots
+
+Here are some pretty screenshots:
+
 ![Intro screen](images/starfox-20171205-011707-sm.png)
 
 ![Controller configuration](images/starfox-20171205-011726-sm.png)
