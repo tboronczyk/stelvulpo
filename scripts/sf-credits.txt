@@ -31,13 +31,13 @@ prezentita<END>
 de<END>
 
 #WRITE(Ptr, $6F4B8)
-plenuma produktanto<END>
+plenuma produktoro<END>
 
 #WRITE(Ptr, $6F4D0)
 hiroshi yamauchi<END>
 
 #WRITE(Ptr, $6F4EF)
-produktanto<END>
+produktoro<END>
 
 #WRITE(Ptr, $6F507)
 shigeru miyamoto<END>
@@ -55,7 +55,7 @@ helpanta reqisoro<END>
 yoichi yamada<END>
 
 #WRITE(Ptr, $6F594)
-programita<END>
+programado<END>
 
 #WRITE(Ptr, $6F5C8)
 dylan cuthbert<END>
@@ -82,7 +82,7 @@ grafika fasonisto<END>
 takaya imamura<END>
 
 #WRITE(Ptr, $6F6A9)
-fasonisto de formoj<END>
+forma fasonisto<END>
 
 #WRITE(Ptr, $6F6C1)
 tsuyoshi watanabe<END>
@@ -94,13 +94,13 @@ sonefektoj<END>
 koji kondo<END>
 
 #WRITE(Ptr, $6F717)
-komponisto<END>
+muziko<END>
 
 #WRITE(Ptr, $6F72F)
 hajime hirasawa<END>
 
 #WRITE(Ptr, $6F74E)
-helpita<END>
+kun helpo de<END>
 
 #WRITE(Ptr, $6F786)
 argonaut software<END>
@@ -170,7 +170,7 @@ kenji yamamoto<END>
 
 #WRITE(Ptr, $167AF)
 #WRITE(Ptr, $1691B)
-suma poentaro<END>
+totala poentaro<END>
 
 #WRITE(Ptr, $1686B)
 #WRITE(Ptr, $169B9)

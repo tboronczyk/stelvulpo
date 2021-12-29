@@ -66,10 +66,10 @@
 <$02><$02><$0E>mi estas kun vi, foks''<END>
 
 // [Falco]
-<$02><$00><$0E>iu sekvas min''<END>
+<$02><$00><$0E>io sekvas min''<END>
 
 // [Falco]
-<$02><$02><$0E>zorgu pri viaj propraj aferoj, foks''<END>
+<$02><$02><$0E>zorgu pri vi mem, foks''<END>
 
 // [Falco]
 <$02><$01><$0E>iu pafis min'' mi mortas''''<END>
@@ -112,7 +112,7 @@
 <$00><$00><$00><END>
 
 // [Falco]
-<$02><$02><$0E>hej'' mi pafus tiun''<END>
+<$02><$02><$0E>hej'' mi pafus tion''<END>
 
 // [Falco]
 <$02><$02><$0E>movixu'' mi pafas''<END>
@@ -259,7 +259,7 @@
 <$03><$02><$0E>should we go in?!!<END>
 
 // [Falco]
-<$02><$00><$0E>...qi tiu povas esti problemo...<END>
+<$02><$00><$0E>...qi tiu povus esti problemo...<END>
 
 // [Peppy]
 <$01><$00><$0E>rapidixu''<END>
@@ -417,16 +417,16 @@
 <$84><$02><$0E>mi rekomendas ludregilan agordon a a!! b''<END>
 
 // [Pepper]
-<$84><$02><$0E>ho... vi tre kapablas, foks''<END>
+<$84><$02><$0E>ho... vi estas tre lerta, foks''<END>
 
 // [Pepper]
-<$84><$02><$0E>vi sukcesis'' nun alfrontu la malamikon''<END>
+<$84><$02><$0E>vi trapasis'' nun alfrontu la malamikon''<END>
 
 // [Slippy]
 <$83><$02><$0E>premu start por reveni al la ludo, kvak''<END>
 
 // [Falco]
-<$82><$02><$0E>mi ne kredas,  ke pipro volas testi nin''<END>
+<$82><$02><$0E>mi ne kredas,  ke pipro testas nin''<END>
 
 // [Pepper]
 <$84><$02><$0E>pardonu min pro mia dubo'' premu start''<END>
