@@ -1000,7 +1000,7 @@ msg_presented
 	mariomsg	<PRESENTED>
 
 msg_presents
-	mariomsg	<PRESENTS>
+	mariomsg	<PREZENTAS>
 
 msg_developed
 	mariomsg	<ASSISTED>
