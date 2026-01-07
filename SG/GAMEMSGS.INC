@@ -1,142 +1,291 @@
-	message	fox,<all ships check in!>,<®­† ‚‰‡¥(>,other	; (1)
-	message	fox,<we did it!>,<£º-(>,other	; (2)
-	message	fox,<slippy slippy##>,<Œ§ºš¯- Œ§ºš¯->,other	; (3)
-	message	fox,<go back to the base!>,<‰©¥§ †…­Œ¨(>,other	; (4)
-	message	falcon,<ready, fox!>,<‚’®…® ”¨®(>,other	; (5)
-	message	falcon,<i'm with you, fox!>,<“®‚º’‰“˜” ‹‰®“®º®(>,other	; (6)
-	message	falcon,<bogey on my six!>,<º ›§†©—-®(>,help	; (7)
-	message	falcon,<mind your own business, fox!>,<¥ˆ”‰“¬ ‹£…®º’+++>,other	; (8)
-	message	falcon,<they got me! i'm gone!!>,<‚¶-º €“™ ˜­®Ž®(>,down	; (9)
-	message	falcon,<i'll blast 'em all!>,<‹‘‰£‘¦® †ƒžƒ(>,other	; (10)
-	message	falcon,<there's more on the way!>,<º †§…®”®(>,other	; (11)
-	message	falcon,<you can run, but you can't hide!>,<•…®Œ…¥º Ž©º(>,other	; (12)
-	message	falcon,<this one's mine!>,<›¶º‡Œ ’¬®Œ”¥(>,other	; (13)
-	message	falcon,<watch it, fox!>,<‚‹ª˜£‘…® ‚¨Š®(>,help	; (14)
-	message	falcon,<i'm hit!!>,<º º™¯‘ ‡¦ºžº(>,other	; (15)
-	message	falcon,<here they come! >,<’†Š­˜ „’®ž‹®®(>,other	; (16)
-	message	falcon3,<make the neck and tail shorter, fox!!>,<‡š®“‹º¯¬ Ÿ‹®…‡Œ¨­®(>,other	; (17)
-	message	falcon3,<shoot down its arms to hit its body!>,<®¡-‹®™ ‚’®…¦ ®’®³-• ‘«¨®>,other	; (18)
-	message	falcon,<slow it down, fox!>,<Œš¯-“®¬ ‰ªŒ­®¥(>,other	; (19)
-	message	falcon,<roll, baby! rock 'n roll!>,<ª-§­‡®’® ›§™¦ƒ(>,other	; (20)
-	message	falcon,<my ship's messed up###>,<‹‡‹®º®++ †¸‚‹¸‘¬˜ >,other	; (21)
-	message	falcon,<hey! that one was mine!>,<Ž‘™ „©˜ ƒ¢˜®®(>,other	; (22)
-	message	falcon,<bogies, i'm comin' through!>,<Š®‰™ šº‰­’®”(>,other	; (23)
-	message	falcon,<i'll cover your tail!>,<‰‚‚¬ ƒ­‰®Œ¨®(>,other	; (24)
-	message	rabbit,<yeah - let's go!>,< ·™ Œ¨”¥(>,other	; (25)
-	message	rabbit,<i'm behind you, fox!>,<€­˜‚‹ª• ¨Š>,other	; (26)
-	message	rabbit,<get lost, you fiend!>,<‹žº ™®º‡¬“¦©(>,help	; (27)
-	message	rabbit,<yeah! thanks!>,<Œž­ ›¶º‡Œ+++>,other	; (28)
-	message	rabbit,<aargh!! i'm a goner!>,<‚«± ”­’‰º-(>,down	; (29)
-	message	rabbit,<let's smash 'em!>,<Ž-© £ºžƒ-(>,other	; (30)
-	message	rabbit,<i got one! i got one!!>,<¥-‹ º¹‚€…®§(>,other	; (31)
-	message	rabbit,<take this, enemy brute!>,<›­ ‰©’®¢‡¦ƒ(>,other	; (32)
-	message	rabbit,<you're not getting away!>,<•ˆ®¦©¨«ˆ ”®ª(>,other	; (33)
-	message	rabbit,<watch your aim, fox!>,<„©® „©® ‚‘­‹®·”(>,help	; (34)
-	message	rabbit,<ouch! ouch!>,<€++++>,other	; (35)
-	message	rabbit,<incoming enemy craft! >,<Ž®ªŽ®ª“ „’®”ŠºŽ®(>,other	; (36)
-	message	rabbit3,<please make the neck and tail shorter, fox!>,<‡š®“‹º¯¬ Ÿ‹®…‡Œ¨­®(>,other	; (37)
-	message	rabbit3,<shoot down its arms to hit its body!>,<®¡-‹®™ ‚’®…¦ ®’®³-• ‘«¨Ž®>,other	; (38)
-	message	rabbit,<retros!  fire retros!>,<›¶º‡Œ ›®©-†®(>,other	; (39)
-	message	rabbit,<roll over! shake it off!>,<†¬ ª-§­‡®Šª(>,other	; (40)
-	message	rabbit,<pick me up on your way back!>,<Œž­” …ƒ§• šªº’‡©¥>,other	; (41)
-	message	rabbit,<hey! he was mine!>,<˜‹Ÿ¬ “¦”’®‡©¥(>,other	; (42)
-	message	rabbit,<out of my way!>,<‹®·žŒ¨”- †ƒª-(>,other	; (43)
-	message	rabbit,<i'm off your starboard!>,<Ÿ†®…®« ƒ­‰®Œ¨(>,other	; (44)
-	message	frog,<ok!!>,<…®­™®¨Ž®- ˆªˆª(>,other	; (45)
-	message	frog,<ribbit! i'll bring up the rear,fox!>,<¢‚ ®¡…“ „¢º ˆ®ª>,other	; (46)
-	message	frog,<croak!  help me!>,<‚«±( ‹•‡”¥±(>,help	; (47)
-	message	frog,<ribbit!  thanks fer the save!>,<›´+++ Œ…º ˆª++>,other	; (48)
-	message	frog,<no! no! crrooakk!>,<ˆ®ªˆ®ª ¢+¢‚®¡®±(>,down	; (49)
-	message	frog,<i'll get him -- ribbit!>,<•ˆ®’¢  ® ˆª(>,other	; (50)
-	message	frog,<piece of c-c-cake!>,<€¦¥º“ ˆªˆª(>,other	; (51)
-	message	frog,<take this, j-j-junk heap!>,<‡™®©( ˆª>,other	; (52)
-	message	frog,<i'll get this one! ribbit!>,<®† ®†(>,other	; (53)
-	message	frog,<hey! it's me, slippy!>,<ˆ®ªˆ®ª „©®¥±º(>,help	; (54)
-	message	frog,<ribbit!  i'm hit!!>,<ˆ®±º ‡¦º±(>,other	; (55)
-	message	frog,<there's too many of them!>,<ˆ®ªˆ®ª ‰‚Š­‹·„‚…²(>,other	; (56)
-	message	frog,<let's turn back, okay?!>,<ˆ®ªˆ®ª ¢‚…ƒ§¥±(>,other	; (57)
-	message	frog,<let's be careful!>,<ˆ®ª± €›®”¥±(>,other	; (58)
-	message	frog,<something's sticking to me!>,<ˆ®ª± ”­… šº‘±(>,other	; (59)
-	message	frog,<i c-c-couldn't go, fox!>,<€±€º ™£‡ Œˆ• †’‡©¥>,other	; (60)
-	message	frog,<hey! don't be so g-g-greedy!>,<®‡•¢ £¦’¥±(>,other	; (61)
-	message	frog,<c-c-clear out, astro-geeks!>,<‹®·ž®¥± ˆªˆª(>,other	; (62)
-	message	frog,<hope there's no more!>,<‰º• †ž­¥‚•+++>,other	; (63)
-	message	frog,<did you see me?>,<Ÿ’)( Ÿ’±)(>,other	; (64)
-	message	rabbit,<i can't tell which is real!!>,<«± ›®­‹­‹Ž®(>,other	; (65)
-	message	falcon,<let's head in!>,<€˜›—• ‘º‰ Ž®(>,other	; (66)
-	message	rabbit,<i'll follow you in!>,<‹­¹‚• ¢‡®§‰¡(>,other	; (67)
-	message	frog,<should we go in?!>,<‡‚®• “‘ˆ®† ˆª(>,other	; (68)
-	message	falcon,<###this one could be trouble###>,<‹‘‰£‘®®(>,help	; (69)
-	message	rabbit,<hurry!>,<˜ ( …Œ®ˆ’‡©(>,help	; (70)
-	message	frog,<hurry up, fox!  croak!>,<®…¦ …ƒ¨º’ º˜•±(>,help	; (71)
-	message	falcon,<eyes forward, fox!>,<žƒ¬ Ÿ’ª¥(>,other	; (72)
-	message	rabbit,<be careful, fox!>,<›¶º‡Œ †¬‘ˆª¥(>,other	; (73)
-	message	frog,<this time, i saved you!>,<Œˆ§¢ Œ¨­®” ˆª(>,other	; (74)
-	message	falcon,<no sweat, fox!>,<¹ª¢­®®(>,other	; (75)
-	message	rabbit,<ok, ok! what's next?!>,<¥º‹· ‘†®‰ ‘†®(>,other	; (76)
-	message	frog,<so far, so g-g-good!>,<”­“… †˜š®’¨­®”>,other	; (77)
-	message	frog,<look, look!>,<Ÿ’ˆª Ÿ’ˆª(>,other	; (78)
-	message	falcon,<it's looking good, fox!>,<‚’®…® ”žºž‚®(>,other	; (79)
-	message	rabbit,<we did it, let's go!>,<¹‚‹®” ›¶º‡Œ(>,other	; (80)
-	message	frog,<g-g-great!>,<…­­”­®” ˆª(>,other	; (81)
-	message	falcon,<be a bit more careful fox!>,<ŽªŽª ­†¬ ®Ž‚…—++++>,other	; (82)
-	message	rabbit,<please tread carefully, fox!>,<‹º…§ £º’‡©¥ §-®-(>,other	; (83)
-	message	frog,<remember not to shoot m-m-me!>,<®º ®‡¬ ‚”’®¥—(>,help	; (84)
-	message	falcon,<it's going pretty badly!>,<£™®‰“• ”ºžº®+++>,help	; (85)
-	message	rabbit,<i don't think i'm going to make it!>,<¢‚ ®ª®ª®±( ”­“…‹’‡©+++>,help	; (86)
-	message	frog,<my ship's falling apart### ribbit!>,<¢‚®¡ˆ®ª( ¢‚®¡®ˆ®ª±(>,help	; (87)
-	message	fox,<star fox team, our last resort is to counter attack venom!  good luck!>,<€-  Œ-›¶º‡Œ ˜ ‹¹‡­+++ «©«©• ˜‰Š©’™ œ®˜ ¬ ¹‡‘‡‰“®. «…® ‰-—§€¬ž¢¨¡ …®­™®º’‡©.>,other	; (88)
-	message	fox,<andross's forces intend to build a base in this area!  destroy their rock crusher!>,<›¶º‡Œ‡­ (  €­“®¨›˜‡®­®™ ‰˜†•†¬ ˆ­‘‹¥‚“‹’„¨.  ªº‡‡¦º‹·-¬ ™…‹’‡© (>,other	; (89)
-	message	fox,<the space armada consists of powerful battleships! destroy their energy cores!>,<›¶º‡Œ‡­( ‰˜ Œœ¯-Œ€ž®™ ‚¸‚ Š†¹‚˜ …­®. ­…­•­•¸‚‹ Ž˜ ƒ—¨†®-‰€¬ ™…‹’‡© (>,other	; (90)
-	message	fox,<be sure to use your retros if you're going too fast!  be careful with my arwings!>,<›®©-†+›®-Œ“¬ ‘…º’„¨…— œ®˜ ™ Œ‡®Ž‰®. €-‚³­¬ ‰«Š–¥‚• …®­™®º’‡© Œ-›¶º‡Œ˜‹¹‡­ (>,other	; (91)
-	message	fox,<andross is hiding on venom!  fox, you must find his core brain and destroy it!>,<›¶º‡Œ‡­( €­“®¨›™ †º“‰˜œ®˜ • šŽ­’®„¨. ’†‡®­˜‰­“ª-¨›®©­¬ Ÿ‘ˆ®‹ ™…‹’‡© (>,other	; (92)
-	message	fox,<        CORNERIA - THE BASE>,<       CORNERIA - THE BASE>,other	; (93)
-	message	fox,<           ASTEROID BELT>,<          ASTEROID BELT>,other	; (94)
-	message	fox,<              SECTOR  X>,<             SECTOR  X>,other	; (95)
-	message	fox,<       THE PLANET FORTUNA>,<      THE PLANET FORTUNA>,other	; (96)
-	message	fox,<     THE ANDROSS SPACE ARMADA>,<    THE ANDORF SPACE ARMADA>,other	; (97)
-	message	fox,<        THE PLANET TITANIA>,<       THE PLANET TITANIA>,other	; (98)
-	message	fox,<      THE AWESOME BLACK HOLE>,<     THE AWESOME BLACK HOLE>,other	; (99)
-	message	fox,<              SECTOR  Y>,<             SECTOR  Y>,other	; (100)
-	message	fox,<      THE BATTLE BASE METEOR>,<     THE BATTLE BASE METEOR>,other	; (101)
-	message	fox,<              SECTOR  Z>,<             SECTOR  Z>,other	; (102)
-	message	fox,<        THE PLANET MACBETH>,<       THE PLANET MACBETH>,other	; (103)
-	message	fox,<      VENOM - THE FINAL GOAL>,<     VENOM - THE FINAL GOAL>,other	; (104)
-	message	fox,<      OUT OF THIS DIMENSION>,<     OUT OF THIS DIMENSION>,other	; (105)
-	message	fox,<corneria's resource world has been overrun!  you must re-take the weather control unit!>,<‹¹‡­(  ‰‰™…‘’ «…®‰-—§€˜ ‹ˆ®­«‡®º. ’­‰‚Ž‚Š¤•º“¬ Š“®‚Š …¬ ¤‚§•ŒŒ¡’‡© (>,other	; (106)
-	message	fox,<how are the arwings handling?  if an amoeba clings to your ship, use l or r to get rid of it#>,<‹¹‡­ €-‚³­˜ ¹‚‹™“®‚…—) ‰˜‡-’® €¡-™®-• “§‘…©¦ @+* ®­’® ›§™¦‚‰“® (>,other	; (107)
-	message	fox,<you've chosen course three###  a good choice to take venom by surprise!>,<†Ÿ…® ‰˜‰-Œ¬ƒ¦›®”¦ «‹™”•¢ «­( ’†˜‚¦¬…‡•™ ¥­‡…¢ ‹©–.  ˆ­“‚¬˜¨ ›¶º‡Œ‡­ (>,other	; (108)
-	message	fox,<use the l or r button to escape the tractor beam of the enemy battleship! you can do it, fox!>,<’†™ €¦¤¨¢˜¬™—…ƒŒ ­…­¬ …™‘‹¥‚®.  “¦‡-š®- • ‘…žº¦ @+* ®­’® ®º‹¸‘¥ (>,other	; (109)
-	message	fox,<andross has taken control of the huge creatures who live on fortuna!  take care, fox!>,<›¶-¸”™ †¹®›®‘…® Ž‡Œ¨ ‹®­• ¡‡®ž©‹®…® €­“®¨›™ ‰˜†¹®›®‘¬ €£‘§™‹®¡¥‚®>,other	; (110)
-	message	fox,<your team is doing well, fox!  i hope you're taking good care of my arwings!  go for macbeth!>,<„-  ˆ®­†’®€º… ›¶º‡Œ‡­ ( €-‚³­™ ‰«©’„¦­®ª‚—) ‰˜‡-¬ –ˆ©™® ž‡œ®Œ® (>,other	; (111)
-	message	fox,<the hollow interior of macbeth is ideal for a base!  prevent andross from building here!>,<›¶º‡Œ‡­(  ‰˜‹™ ‡‚“®‚¬¢‘. €­“®¨›…®†¬‘‡¨•™ …º‰‚˜‹® †˜ˆ­‘¬ …”¦Œ®£ Ž‹‹’‡© (>,other	; (112)
-	message	fox,<this space grave yard, created by andross's experiments, is where your father vanished, fox!>,<†Ÿ˜‚ƒ¢ ‰˜›‹†®”‡‚…­’® †ƒ’‹žº. Ž‰™€­“®¨›˜‹®ºˆ­…® ‚­® ™…™®®( †¬‘ˆª ›¶º‡Œ‡­ (>,other	; (113)
-	message	fox,<is everyone all right, fox?!  you're on course to sneak into venom's back door!>,<®­­ ›®‹®®º…( ›¶º‡Œ‡­++) œ®˜ ˜ ’††‰‚‚¥§­•¸‚¥ €­“®¨›™ €§™‹®¡’„¨¥‚®(>,other	; (114)
-	message	fox,<come in, arwings!  fox, where are you?!  we need you to protect corneria!>,<›¶º‡Œ‡­( ›¶º‡Œ(+++€-‚³­ º “®‰œ†ƒ’‹žº˜®+++ ‰-—§€¬ ž¢º’‡©(>,other	; (115)
-	message	fox,<you've made it this far### it's your fate to destroy andross!  we're counting on you, fox!>,<„- †Ÿ…® ‰‰ž’®£¨“™++++ ( €­“®¨›¬„Œ˜™ £™§†Ÿ˜ ‹¸‡¡ ®º˜…¢‹©­. ˆ­“‚¬˜¨ ›¶º‡Œ(>,other	; (116)
-	message	falcon3,<the attack- carrier will be mine!>,<€º‡ †·§€-™ ¢¦º®(>,other	; (117)
-	message	pepper3,<ok, fox! let's see your real ability!>,<†Ÿ˜ ‹®‘§¹‡¬ Ÿ’¢¦‚¥>,other	; (118)
-	message	rabbit3,<we've got to fly through all the rings!>,<§­‡®¬ ‘‘®ˆ’ ‡‡®©º’Š (>,other	; (119)
-	message	pepper3,<i recommend you use control type a or b!>,<«‹™ ‰­“ª-¨: ž™=¬ ŒŒ¡¨>,other	; (120)
-	message	pepper3,<ahhh### you are quite skillful,   fox!>,<„- ”…”…˜   ¢˜®”>,other	; (121)
-	message	pepper3,<ok, you passed! go fight the real enemy!>,<™£‡ ‹®º­•’®’ ‡© ’†…®žº’„¨>,other	; (122)
-	message	frog3,<hit start to   go back to the game, ribbit!>,<Œ-“®­’® ˆ®- • ¢“®¨ ˆª(>,other	; (123)
-	message	falcon3,<i can't believe pepper has to test us!>,<›­ ( ”¡¦©¢­®® (>,other	; (124)
-	message	pepper3,<i'm sorry         i doubted you! press start!>,<‚…®º’ «¨…º Œ-“¬ „‹’‡© (>,other	; (125)
-	message	andross3,<fox,           you are indeed a worthy foe###>,<›¶º‡Œ ( ¥‡ ‰‰ž’®† (>,other	; (126)
-	message	andross3,<but, your foolish efforts are futile!>,<“®‘¢ ‰‘¢ £‡•–£‘¦®>,other	; (127)
-	message	andross3,<your arwings have no chance against me!>,<„žƒ‰®“†• «‹…® „¨…)>,other	; (128)
-	message	andross3,<i thought you might make it eventually###>,<¢‚ €¦«©¨‰ª“ „¢º’ (>,other	; (129)
-	message	andross3,<general pepper has guided you well!>,<œ¯º™¯-• ‚ž‡ ˜¦©„º’+++>,other	; (130)
-	message	andross3,<however, you will not escape here alive!>,<‹…‹ „žƒ¬†’ …ƒŒ‰“™ ’®†–(>,other	; (131)
-	message	andross3,<ah## your choice of routes took me by surprise!>,<  ++ ‘˜ž• ‰‰ž’®†)>,other	; (132)
-	message	andross3,<your father was a reckless fighter too###>,<„žƒ˜ „£‹®¢  ’º¯‚®º…®++>,other	; (133)
-	message	andross3,<but this will be the mccloud's last battle!>,<‰©…® „žƒ•“º’ Š‰®˜ …®(>,other	; (134)
-	message	falcon,<follow me, fox!>,<‘’‰¥ ›¶º‡Œ(>,other	; (135)
-	message	falcon,<roll, fox! rock'n roll!>,<ª-§­‡®®® ›¶º‡Œ (>,other	; (136)
-	message	rabbit,<stay in formation!>,<œ­¬  Ÿ®Œ”¥ (>,other	; (137)
-	message	falcon3,<what's wrong with you today, fox?!>,<†¹‚™ “®‚‹­® ›¶º‡Œ)>,other	; (138)
-	message	frog,<yer g-g-great, fox! ribbit!>,<Š±Œ…® ›¶º‡Œ ˆªˆª (>,other	; (139)
-	message	falcon,<beware of the big stingray!>,<’®…£‘•™ ’¬®Œ”¥ (>,other	; (140)
-	message	rabbit,<beware of the big stingray!>,<’®…£‘•™ ’¬®Œ”¥ (>,other	; (141)
-	message	frog,<beware of the big stingray!>,<„„†˜™ º“’ ˆª (>,other	; (142)
+	;<all ships check in!>
+	message	fox,<qiuj wipoj, raportu vin''>,<--->,other	; (1)
+
+	; unused
+	message	fox,<we did it!>,<--->,other	; (2)
+	message	fox,<slippy slippy##>,<--->,other	; (3)
+	message	fox,<go back to the base!>,<--->,other	; (4)
+
+	;<ready, fox!>
+	message	falcon,<mi pretas, foks''>,<--->,other	; (5)
+	;<i'm with you, fox!>
+	message	falcon,<mi estas kun vi, foks''>,<--->,other	; (6)
+	;<bogey on my six!>
+	message	falcon,<io sekvas min''>,<--->,help	; (7)
+	;<mind your own business, fox!>
+	message	falcon,<zorgu pri vi mem, foks''>,<--->,other	; (8)
+	;<they got me! i'm gone!!>
+	message	falcon,<iu pafis min'' mi mortas''''>,<--->,down	; (9)
+	;<i'll blast 'em all!>
+	message	falcon,<mi pafos qiujn''>,<--->,other	; (10)
+	;<there's more on the way!>
+	message	falcon,<venas pli da malamikoj''>,<--->,other	; (11)
+	;<you can run, but you can't hide!>
+	message	falcon,<vi povas kuri, sed ne povas kawi vin''>,<--->,other	; (12)
+	;<this one's mine!>
+	message	falcon,<mi pafos xin''>,<-->,other	; (13)
+	;<watch it, fox!>
+	message	falcon,<atentu, foks''>,<--->,help	; (14)
+	;<i'm hit!!>
+	message	falcon,<iu pafis min''>,<-->,other	; (15)
+	;<here they come! >
+	message	falcon,<jen ili venas''>,<--->,other	; (16)
+	;<make the neck and tail shorter, fox!!>
+	message	falcon3,<malplilongigu la kolon kaj voston, foks''>,<--->,other	; (17)
+	;<shoot down its arms to hit its body!>
+	message	falcon3,<forpafu la brakojn por trafi la korpon''>,<--->,other	; (18)
+	;<slow it down, fox!>
+	message	falcon,<malrapidixu, foks''>,<--->,other	; (19)
+	;<roll, baby! rock 'n roll!>
+	message	falcon,<rulixu'' rulixu''>,<--->,other	; (20)
+
+	; unused
+	message	falcon,<my ship's messed up###>,<--->,other	; (21)
+
+	;<hey! that one was mine!>
+	message	falcon,<hej'' mi pafus tion''>,<--->,other	; (22)
+	;<bogies, i'm comin' through!>
+	message	falcon,<movixu'' mi pafas''>,<--->,other	; (23)
+
+	; unused
+	message	falcon,<i'll cover your tail!>,<--->,other	; (24)
+
+	;<yeah - let's go!>
+	message	rabbit,<jes ja - ek''>,<--->,other	; (25)
+	;<i'm behind you, fox!>
+	message	rabbit,<mi sekvas vin, foks''>,<--->,other	; (26)
+	;<get lost, you fiend!>
+	message	rabbit,<perdixu, fiulo''>,<--->,help	; (27)
+	;<yeah! thanks!>
+	message	rabbit,<dankon''>,<--->,other	; (28)
+	;<aargh! i'm a goner!>
+	message	rabbit,<ve'' mi mortos''>,<--->,down	; (29)
+	;<let's smash 'em!>
+	message	rabbit,<ni detruu ilin''>,<--->,other	; (30)
+	;<i got one! i got one!!>
+	message	rabbit,<mi trafis'' mi trafis''>,<--->,other	; (31)
+	;<take this, enemy brute!>
+	message	rabbit,<gustumu mian pafilon''>,<--->,other	; (32)
+	;<you're not getting away!>
+	message	rabbit,<vi ne eskapos''>,<--->,other	; (33)
+	;<watch your aim, fox!>
+	message	rabbit,<pafu pli zorge, foks''>,<--->,help	; (34)
+	;<ouch! ouch!>
+	message	rabbit,<aj'' aj''>,<--->,other	; (35)
+	;<incoming enemy craft! >
+	message	rabbit,<venas malamikaj wipoj''>,<--->,other	; (36)
+	;<please make the neck and tail shorter, fox!>
+	message	rabbit3,<malplilongigu la kolon kaj voston, foks''>,<--->,other	; (37)
+	;<shoot down its arms to hit its body!>
+	message	rabbit3,<forpafu la brakojn por trafi la korpon''>,<--->,other	; (38)
+	;<retros!  fire retros!>
+	message	rabbit,<malrapidixu''>,<--->,other	; (39)
+	;<roll over! shake it off!>
+	message	rabbit,<rulixu'' deskuu xin''>,<--->,other	; (40)
+
+	;unused
+	message	rabbit,<pick me up on your way back!>,<--->,other	; (41)
+
+	;<hey! he was mine!>
+	message	rabbit,<hej! mi pafus tiun''>,<--->,other	; (42)
+	;<out of my way!>
+	message	rabbit,<movixu''>,<--->,other	; (43)
+
+	; unused
+	message	rabbit,<i'm off your starboard!>,<--->,other	; (44)
+
+	;<ok!!>
+	message	frog,<o kej''>,<--->,other	; (45)
+	;<ribbit! i'll bring up the rear,fox!>
+	message	frog,<kvak'' mi flugas malanta!e, foks''>,<--->,other	; (46)
+	;<croak!  help me!>
+	message	frog,<kvak'' helpu min''>,<--->,help	; (47)
+	;<ribbit!  thanks fer the save!>
+	message	frog,<kvank'' dankon pro la helpo''>,<--->,other	; (48)
+	;<no! no! crrooakk!>
+	message	frog,<ne'' ne'' kkvvaakk''>,<--->,down	; (49)
+	;<i'll get him -- ribbit!>
+	message	frog,<mi pafos xin'' kvak''>,<--->,other	; (50)
+	;<piece of c-c-cake!>
+	message	frog,<tre facile''>,<--->,other	; (51)
+	;<take this, j-j-junk heap!>
+	message	frog,<g-g-gustumu la malvenkon''>,<--->,other	; (52)
+	;<i'll get this one! ribbit!>
+	message	frog,<mi pafos qi tiun'' kvak''>,<--->,other	; (53)
+	;<hey! it's me, slippy!>
+	message	frog,<hej'' estas mi, glitqjo''>,<--->,other	; (54)
+	;<ribbit!  i'm hit!!>
+	message	frog,<kvak'' iu pafis min''''>,<--->,other	; (55)
+	;<there's too many of them!>
+	message	frog,<ili estas tro multaj''>,<--->,other	; (56)
+	;<let's turn back, okay?!>
+	message	frog,<qu ni ritirixu?>,<--->,other	; (57)
+	;<let's be careful!>
+	message	frog,<ni estu zorgemaj''>,<--->,other	; (58)
+	;<something's sticking to me!>
+	message	frog,<io alkroqixas al mi''>,<--->,other	; (59)
+
+	; unused
+	message	frog,<i c-c-couldn't go, fox!>,<--->,other	; (60)
+
+	;<hey! don't be so g-g-greedy!>
+	message	frog,<hej'' ne estu t-t-tiel avida''>,<--->,other	; (61)
+	;<c-c-clear out, astro-geeks!>
+	message	frog,<ni venkos''>,<--->,other	; (62)
+
+	; unused
+	message	frog,<hope there's no more!>,<--->,other	; (63)
+
+	;<did you see me?>
+	message	frog,<qu vi vidis min?>,<--->,other	; (64)
+
+	;unused
+	message	rabbit,<i can't tell which is real!!>,<--->,other	; (65)
+
+	;<let's head in!>
+	message	falcon,<ni eniru''>,<--->,other	; (66)
+	;<i'll follow you in!>
+	message	rabbit,<mi sekvos vin''>,<--->,other	; (67)
+	;<should we go in?!>
+	message	frog,<qu ni eniru?>,<--->,other	; (68)
+	;<###this one could be trouble###>
+	message	falcon,<###qi tiu povus esti problemo###>,<--->,help	; (69)
+	;<hurry!>
+	message	rabbit,<rapidixu''>,<--->,help	; (70)
+	;<hurry up, fox!  croak!>
+	message	frog,<rapidixu, foks'' kvak''>,<--->,help	; (71)
+	;<eyes forward, fox!>
+	message	falcon,<rigardu anta!en, foks''>,<--->,other	; (72)
+	;<be careful, fox!>
+	message	rabbit,<atentu, foks''>,<--->,other	; (73)
+	;<this time, i saved you!>
+	message	frog,<qi-foje, mi savis vin''>,<--->,other	; (74)
+	;<no sweat, fox!>
+	message	falcon,<senprobleme, foks''>,<--->,other	; (75)
+	;<ok, ok! what's next?!>
+	message	rabbit,<kien ni iras nun?>,<--->,other	; (76)
+	;<so far, so g-g-good!>
+	message	frog,<qio estas b-b-bona''>,<--->,other	; (77)
+	;<look, look!>
+	message	frog,<rigardu'' rigardu''>,<--->,other	; (78)
+	;<it's looking good, fox!>
+	message	falcon,<qio estas bona, foks''>,<--->,other	; (79)
+	;<we did it, let's go!>
+	message	rabbit,<ni sukcesis'' ek''>,<--->,other	; (80)
+	;<g-g-great!>
+	message	frog,<b-b-bone''>,<--->,other	; (81)
+	;<be a bit more careful, fox!>
+	message	falcon,<estu pli zorgema, foks''>,<--->,other	; (82)
+	;<please tread carefully, fox!>
+	message	rabbit,<zorgeme anta!en, foks''>,<--->,other	; (83)
+	;<remember not to shoot m-m-me!>
+	message	frog,<memoru ne p-p-pafu min''>,<--->,help	; (84)
+	;<it's going pretty badly!>
+	message	falcon,<estas malbone''>,<--->,help	; (85)
+	;<i don't think i'm going to make it!>
+	message	rabbit,<mi timas, ke mi mortos''>,<--->,help	; (86)
+	;<my ship's falling apart### ribbit!>
+	message	frog,<mia wipo difektixas### kvak''>,<--->,help	; (87)
+
+	;<star fox team, our last resort is to counter attack venom!  good luck!>
+	message	fox,<teamo stelvulpo, nia lasta rimedo estas kontra!ataki venenon'' bonan wancon''>,<--->,other	; (88)
+	;<andross's forces intend to build a base in this area!  destroy their rock crusher!>
+	message	fox,<la armeo de androso intencas konstrui militbazon en qi tiu loko'' detruu ilian rokpulvigilon''>,<--->,other	; (89)
+	;<the space armada consists of powerful battleships! destroy their energy cores!>
+	message	fox,<la kosma militwiparo konsistas el fortaj batalwipoj'' detruu iliajn fontojn de energio''>,<--->,other	; (90)
+	;<be sure to use your retros if you're going too fast!  be careful with my arwings!>
+	message	fox,<nepre uzu viajn retrigilojn, se vi tro rapidas'' atentu pri miaj arvingoj''>,<--->,other	; (91)
+	;<andross is hiding on venom!  fox, you must find his core brain and destroy it!>,
+	message	fox,<androso kawas sin qe veneno'' foks, vi devas trovi lian kernan cerbon kaj detrui xin''>,<--->,other	; (92)
+
+	message	fox,<        KORNERIO - LA BAZO>,<       CORNERIA - THE BASE>,other	; (93)
+	message	fox,<          ASTEROIA ZONO>,<          ASTEROID BELT>,other	; (94)
+	message	fox,<            SECTORO X>,<             SECTOR  X>,other	; (95)
+	message	fox,<         PLANEDO FORTUNO>,<      THE PLANET FORTUNA>,other	; (96)
+	message	fox,<        KOSMA MILITWIPARO>,<    THE ANDORF SPACE ARMADA>,other	; (97)
+	message	fox,<         PLANEDO TITANIO>,<       THE PLANET TITANIA>,other	; (98)
+	message	fox,<      LA TIMINDA NIGRA TRUO>,<     THE AWESOME BLACK HOLE>,other	; (99)
+	message	fox,<            SECTORO Y>,<             SECTOR  Y>,other	; (100)
+	message	fox,<      METEOROIDA BATALBAZO>,<     THE BATTLE BASE METEOR>,other	; (101)
+	message	fox,<            SECTORO  Z>,<             SECTOR  Z>,other	; (102)
+	message	fox,<         PLANEDO MAKBETO>,<       THE PLANET MACBETH>,other	; (103)
+	message	fox,<         VENENO - LA CELO>,<     VENOM - THE FINAL GOAL>,other	; (104)
+	message	fox,<    EKSTERE DE QI TIU DIMENSIO>,<     OUT OF THIS DIMENSION>,other	; (105)
+
+	;<corneria's resource world has been overrun!  you must re-take the weather control unit!>
+	message	fox,<la rimedoplena planedo titanio estas okupigita'' rekaptu la veterokontrolan aparaton''>,<--->,other	; (106)
+	;<how are the arwings handling?  if an amoeba clings to your ship, use l or r to get rid of it#>
+	message	fox,<kiel stirixas la arvingoj? se amebo kroqas vian wipon, premu l a! r por desku xin#>,<--->,other	; (107)
+	;<you've chosen course three###  a good choice to take venom by surprise!>
+	message	fox,<vi elektis la trian trakon### tio estas bona elekto por surprizi venenon''>,<--->,other	; (108)
+	;<use the l or r button to escape the tractor beam of the enemy battleship! you can do it, fox!>
+	message	fox,<premu l a! r por eskapi de la malamika batawipa tirrado''>,<--->,other	; (109)
+	;<andross has taken control of the huge creatures who live on fortuna!  take care, fox!>
+	message	fox,<androso prenis kontrolon de la grandaj bestoj de fortuno'' estu zorgema, foks''>,<--->,other	; (110)
+	;<your team is doing well, fox!  i hope you're taking good care of my arwings!  go for macbeth!>
+	message	fox,<via teamo bone progresas, foks'' mi esperas, ke vi zorgas pri miaj arvingoj'' ek al maketo''>,<--->,other	; (111)
+	;<the hollow interior of macbeth is ideal for a base!  prevent andross from building here!>
+	message	fox,<la kava interno de makbeto tre ta!gas por militbazo'' malebligu, ke androso konstruos tie''>,<--->,other	; (112)
+	;<this space grave yard, created by andross's experiments, is where your father vanished, fox!>,<--->,other	; (113)
+	message	fox,<jen la kosma tombejo, kreita de la eksperimentoj de androso, kie malaperis via patro, foks''>,<--->,other	; (113)
+	;<is everyone all right, fox?!  you're on course to sneak into venom's back door!>
+	message	fox,<qu qiuj bonstatas, foks? vi kawe alvenas al la bazo de veneno''>,<--->,other	; (114)
+	;<come in, arwings!  fox, where are you?!  we need you to protect corneria!>
+	message	fox,<respondu, arvingoj'' kie vi estas, foks? ni bezonas vin protekti kornerion''>,<--->,other	; (115)
+	;<you've made it this far### it's your fate to destroy andross!  we're counting on you, fox!>
+	message	fox,<vi persistis xis nun### via sorto estas venki androson'' ni dependas je vi, foks''>,<--->,other	; (116)
+
+	;unused
+	message	falcon3,<the attack- carrier will be mine!>,<--->,other	; (117)
+
+	;<ok, fox! let's see your real ability!>
+	message	pepper3,<nu, foks'' ni vidu vian kapablon''>,<--->,other	; (118)
+	;<we've got to fly through all the rings!>
+	message	rabbit3,<ni devas flugi tra qiuj ringoj''>,<--->,other	; (119)
+	;<i recommend you use control type a or b!>
+	message	pepper3,<mi rekomendas agordon a a! b''>,<--->,other	; (120)
+	;<ahhh### you are quite skillful,   fox!>
+	message	pepper3,<ho, vi estas   tre lerta, foks''>,<--->,other	; (121)
+	;<ok, you passed! go fight the real enemy!>
+	message	pepper3,<vi trapasis'' nun alfrontu la malamikon''>,<--->,other	; (122)
+	;<hit start to   go back to the game, ribbit!>
+	message	frog3,<premu start   por reveni al   la ludo, kvak''>,<--->,other	; (123)
+	;<i can't believe pepper has to test us!>
+	message	falcon3,<mi ne kredas,   ke pipro testas nin''>,<--->,other	; (124)
+	;<i'm sorry         i doubted you! press start!>
+	message	pepper3,<pardonu min pro mia dubo'' premu start''>,<--->,other	; (125)
+
+	;<fox,           you are indeed a worthy foe###>
+	message	andross3,<foks,          vi estas respektinda###>,<--->,other	; (126)
+	;<but, your foolish efforts are futile!>
+	message	andross3,<tamen, via malsaxa penado estas vana''>,<--->,other	; (127)
+	;your arwings have no chance against me!>
+	message	andross3,<viaj arvingoj neniel povas venkimin''>,<--->,other	; (128)
+	;<i thought you might make it eventually###>
+	message	andross3,<mi pensis, ke vi iam alvenos###>,<--->,other	; (129)
+	;<general pepper has guided you well!>
+	message	andross3,<generalo pipro bone gvidis vin''>,<--->,other	; (130)
+	;<however, you will not escape here alive!>
+	message	andross3,<tamen, vi ne eskapos de qi tie''>,<--->,other	; (131)
+	;<ah## your choice of routes took me by surprise!>
+	message	andross3,<ho### via vojelekto surprizis min''>,<--->,other	; (132)
+	;<your father was a reckless fighter too###>
+	message	andross3,<anka! via patro estis senprudenta batalanto###>,<--->,other	; (133)
+	;<but this will be the mccloud's last battle!>
+	message	andross3,<sed nun okazos la fina batalo de la makkla!doj''>,<--->,other	; (134)
+
+	;<follow me, fox!>
+	message	falcon,<sekvu min, foks''>,<--->,other	; (135)
+	;falcon,<roll, fox! rock'n roll!>
+	message	falcon3,<rulixu, foks'' rulixu''>,<--->,other	; (136)
+	;rabbit,<stay in formation!>
+	message	rabbit3,<restu en formacio''>,<--->,other	; (137)
+	;<what's wrong with you today, fox?!>
+	message	falcon3,<kio okazis al vi hodia!, foks?>,<--->,other	; (138)
+	;<yer g-g-great, fox! ribbit!>
+	message	frog,<vi estas b-b-bonega, foks''>,<--->,other	; (139)
+
+	;<beware of the big stingray!>
+	message	falcon,<gardu vin kontra! la granda rajo''>,<--->,other	; (140)
+	message	rabbit,<gardu vin kontra! la granda rajo''>,<--->,other	; (141)
+	message	frog,<gardu vin kontra! la granda rajo''>,<--->,other	; (142)
