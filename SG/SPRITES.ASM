@@ -623,13 +623,13 @@ onespr	dw	$4f+3<<12+spradd,22+3<<12+spradd
 	dw	$4f+3<<12+spradd,23+3<<12+spradd
 twospr	dw	24+3<<12+spradd,25+3<<12+spradd
 	dw	26+3<<12+spradd,27+3<<12+spradd
-threespr	dw	28+3<<12+spradd,29+3<<12+spradd
+threespr	dw	24+3<<12+spradd,25+3<<12+spradd
 	dw	30+3<<12+spradd,31+3<<12+spradd
 fourspr	dw	32+3<<12+spradd,33+3<<12+spradd
 	dw	34+3<<12+spradd,35+3<<12+spradd
 fivespr	dw	36+3<<12+spradd,37+3<<12+spradd
 	dw	38+3<<12+spradd,39+3<<12+spradd
-sixspr	dw	40+3<<12+spradd,41+3<<12+spradd
+sixspr	dw	36+3<<12+spradd,37+3<<12+spradd
 	dw	42+3<<12+spradd,43+3<<12+spradd
 sevenspr	dw	44+3<<12+spradd,45+3<<12+spradd
 	dw	46+3<<12+spradd,47+3<<12+spradd
@@ -639,15 +639,15 @@ ninespr	dw	52+3<<12+spradd,53+3<<12+spradd
 	dw	54+3<<12+spradd,55+3<<12+spradd
 zerospr	dw	56+3<<12+spradd,57+3<<12+spradd
 	dw	58+3<<12+spradd,59+3<<12+spradd
-aspr	dw	08+3<<12+spradd,09+3<<12+spradd
+aspr	dw	36+3<<12+spradd,09+3<<12+spradd
 	dw	10+3<<12+spradd,11+3<<12+spradd
 bspr	dw	$57+3<<12+spradd,$58+3<<12+spradd
 	dw	$5f+3<<12+spradd,$60+3<<12+spradd
 cspr	dw	$50+3<<12+spradd,$51+3<<12+spradd
 	dw	$52+3<<12+spradd,$53+3<<12+spradd
-espr	dw	16+3<<12+spradd,17+3<<12+spradd
+espr	dw	36+3<<12+spradd,17+3<<12+spradd
 	dw	18+3<<12+spradd,19+3<<12+spradd
-gspr	dw	12+3<<12+spradd,13+3<<12+spradd
+gspr	dw	36+3<<12+spradd,13+3<<12+spradd
 	dw	14+3<<12+spradd,15+3<<12+spradd
 ispr	dw	-2,$16+3<<12+spradd,$17+3<<12+spradd
 lspr	dw	$54+3<<12+spradd,$4f+3<<12+spradd
@@ -660,8 +660,8 @@ ospr	dw	$38+3<<12+spradd,$39+3<<12+spradd
 	dw	$3a+3<<12+spradd,$3b+3<<12+spradd
 rspr	dw	$57+3<<12+spradd,$58+3<<12+spradd
 	dw	$59+3<<12+spradd,$5a+3<<12+spradd
-sspr	dw	00+3<<12+spradd,01+3<<12+spradd
-	dw	02+3<<12+spradd,03+3<<12+spradd
+sspr	dw	36+3<<12+spradd,37+3<<12+spradd
+	dw	38+3<<12+spradd,39+3<<12+spradd
 tspr	dw	04+3<<12+spradd,05+3<<12+spradd
 	dw	06+3<<12+spradd,07+3<<12+spradd
 vspr	dw	$6d+3<<12+spradd,$6e+3<<12+spradd
