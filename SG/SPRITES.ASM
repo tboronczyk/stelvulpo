@@ -267,7 +267,16 @@ prt_scramble
 	a16
 	ldy	spritespos
 	sty	mespos
-	lda	#$4848
+
+	lda	#$40a0
+	sta	tpx
+	ldx	spritespos
+	phx
+	ldx	#accntmes-sprsbase
+	jsr	print_sprite_mes
+	plx
+
+	lda	#$4838
 	sta	tpx
 	ldx	spritespos
 	phx
@@ -275,6 +284,7 @@ prt_scramble
 	jsr	print_sprite_mes
 	plx
 	a16
+	ldx	mespos
 .setred	lda	spriteblk+2,x
 	ora	#2<<9
 	sta	spriteblk+2,x
@@ -484,15 +494,20 @@ stagemes
 
 	ENDC
 
-scramblemes	dw	sspr-sprsbase
-	dw	cspr-sprsbase
+scramblemes	dw	pspr-sprsbase
 	dw	rspr-sprsbase
-	dw	aspr-sprsbase
-	dw	mspr-sprsbase
-	dw	bspr-sprsbase
-	dw	lspr-sprsbase
 	dw	espr-sprsbase
+	dw	pspr-sprsbase
+	dw	aspr-sprsbase
+	dw	rspr-sprsbase
+	dw	ispr-sprsbase
+	dw	gspr-sprsbase
+	dw	uspr-sprsbase
 	dw	-1
+
+accntmes	dw	accntspr-sprsbase
+		dw	-1
+
 clearmes
 	IFEQ	GERMAN
 	dw	cspr-sprsbase
@@ -647,7 +662,7 @@ cspr	dw	$50+3<<12+spradd,$51+3<<12+spradd
 	dw	$52+3<<12+spradd,$53+3<<12+spradd
 espr	dw	36+3<<12+spradd,17+3<<12+spradd
 	dw	18+3<<12+spradd,19+3<<12+spradd
-gspr	dw	36+3<<12+spradd,13+3<<12+spradd
+gspr	dw	12+3<<12+spradd,13+3<<12+spradd
 	dw	14+3<<12+spradd,15+3<<12+spradd
 ispr	dw	-2,$16+3<<12+spradd,$17+3<<12+spradd
 lspr	dw	$54+3<<12+spradd,$4f+3<<12+spradd
@@ -667,10 +682,13 @@ tspr	dw	04+3<<12+spradd,05+3<<12+spradd
 vspr	dw	$6d+3<<12+spradd,$6e+3<<12+spradd
 	dw	$6f+3<<12+spradd,$6f+3<<12+spradd+1<<14
 pspr	dw	$34+3<<12+spradd,$35+3<<12+spradd
-	dw	$46+3<<12+spradd,$47+3<<12+spradd
+	dw	$59+3<<12+spradd,08+3<<12+spradd
 dspr	dw	$38+3<<12+spradd,$48+3<<12+spradd
 	dw	$3a+3<<12+spradd,$48+3<<12+spradd+1<<15
-
+uspr	dw	00+3<<12+spradd,01+3<<12+spradd
+	dw	$3a+3<<12+spradd,$3b+3<<12+spradd
+accntspr	dw	02+3<<12+spradd,03+3<<12+spradd
+	dw	$4f+3<<12+spradd,$4f+3<<12+spradd
 
 
 ;set specflash with 50 to flash 1 smartbomb
