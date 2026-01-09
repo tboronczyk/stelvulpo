@@ -5,13 +5,13 @@ pausetxt	TXT	14,<PAUSE>
 	ENDC
 
 	IFEQ	GERMAN
-totalscoretxt	TXT	14,<TOTAL SCORE>
+totalscoretxt	TXT	14,<TOTALAJ POENTOJ>
 	ELSEIF
 totalscoretxt	TXT	14,<GESAMTPUNKTZAHL>
 	ENDC
 
 	IFEQ	GERMAN
-scoretxt	TXT	14,<SCORE>
+scoretxt	TXT	14,<PROCENTO>
 	ELSEIF
 scoretxt	TXT	14,<PUNKTE>
 	ENDC
@@ -21,7 +21,7 @@ percenttxt	TXT	14,<PERCENTAGE>
 
 	IFEQ	GERMAN
 	IFEQ	CONTEST
-bonustxt	TXT	14,<BONUS 1 CREDIT>
+bonustxt	TXT	14,<KREDITO ALDONITA>
 	ELSEIF
 bonustxt	TXT	14,<PERFECT BONUS 1OOOOO>
 	ENDC
@@ -33,16 +33,16 @@ percenttxt2	TXT	14,<%>
 perfecttxt	TXT	14,<PERFECT//>
 
 	IFEQ	GERMAN
-teamtxt	TXT	14,<SHIELD OF TEAMMATES>
+teamtxt	TXT	14,<WIRMILOJ DE SKIPANOJ>
 	ELSEIF
 teamtxt	TXT	14,<TEAM POWER>
 	ENDC
 
-frogtxt	TXT	14,<SLIPPY>
-bunnytxt	TXT	14,<PEPPY>
-cocktxt	TXT	14,<FALCO>
-deadtxt	TXT	14,<IS DOWN>
-stagetxt	TXT	14,<STAGE>
+frogtxt	TXT	14,<GLIT=JO>
+bunnytxt	TXT	14,<PE=JO>
+cocktxt	TXT	14,<FALKO>
+deadtxt	TXT	14,<MORTIS>
+stagetxt	TXT	14,<SCENO>
 cesmintxt	TXT	2,<m>
 cessectxt	TXT	2,<s>
 scoretxt2	TXT	2,<score>

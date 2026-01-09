@@ -1004,8 +1004,8 @@ makeendobj2	sta	kval1
 
 ;----------------------------------------------------------------------------------------------
 nametxt	dw	bunnytxt&WM,cocktxt&WM,frogtxt&WM
-namepos	dw	15,96,173
-deadnamepos	dw	11,91,170
+namepos	dw	15,96,169
+deadnamepos	dw	11,91,174
 namegfxpos	db	2,11*8
 	db	12,11*8
 	db	22,11*8
@@ -1103,7 +1103,7 @@ printspeclp
 
 	lda	#176
 	sta.l	m_x1
-	lda	#39
+	lda	#44
 	sta.l	m_y1
 	call_mario mprtperc		;this subtracts 8 from x1 if >=100 and adds 8 if <10
 
@@ -1162,12 +1162,12 @@ printspeclp
 	sta	plotx1
 .nc
 	IFEQ	CONTEST
-	clrmes	scoretxt,16,24
+	clrmes	scoretxt,24,24
 	ELSEIF
 	clrmes	scoretxt,16,68
 	ENDC
 
-	lda	#60
+	lda	#92
 	sta.l	m_x1
 
 	IFEQ	CONTEST
@@ -1181,6 +1181,9 @@ printspeclp
 	sta.l	m_xp2
 	call_mario	mshowpercgraph
 
+	; jump to .doneg to avoid showing percentage "XX%"
+	jmp .doneg
+	
 	lda	#176
 	sta.l	m_x1
 
