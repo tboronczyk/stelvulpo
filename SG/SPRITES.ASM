@@ -373,7 +373,7 @@ prt_stageclear
 	beq	.no
 	ldy	spritespos
 	sty	mespos
-	lda	#$3020
+	lda	#$304c
 	sta	tpx
 	ldx	#stagemes-sprsbase
 	jsr	print_sprite_mes
@@ -384,9 +384,7 @@ prt_stageclear
 	lda.l	stageptrs,x
 	tax
 	jsr	print_sprite_mes
-	lda	tpx
-	clc
-	adc	#8
+	lda	#$4858
 	sta	tpx
 	ldx	#clearmes-sprsbase
 	jsr	print_sprite_mes
@@ -510,11 +508,12 @@ accntmes	dw	accntspr-sprsbase
 
 clearmes
 	IFEQ	GERMAN
-	dw	cspr-sprsbase
-	dw	lspr-sprsbase
-	dw	espr-sprsbase
+	dw	fspr-sprsbase
+	dw	ispr-sprsbase
+	dw	nspr-sprsbase
+	dw	ispr-sprsbase
+	dw	tspr-sprsbase
 	dw	aspr-sprsbase
-	dw	rspr-sprsbase
 	dw	-1
 	ELSEIF
 	dw	espr-sprsbase
@@ -660,11 +659,17 @@ bspr	dw	$57+3<<12+spradd,$58+3<<12+spradd
 	dw	$5f+3<<12+spradd,$60+3<<12+spradd
 cspr	dw	$50+3<<12+spradd,$51+3<<12+spradd
 	dw	$52+3<<12+spradd,$53+3<<12+spradd
+dspr	dw	$38+3<<12+spradd,$48+3<<12+spradd
+	dw	$3a+3<<12+spradd,$48+3<<12+spradd+1<<15
 espr	dw	36+3<<12+spradd,17+3<<12+spradd
 	dw	18+3<<12+spradd,19+3<<12+spradd
+fspr	dw 36+3<<12+spradd,17+3<<12+spradd
+	dw	10+3<<12+spradd,16+3<<12+spradd
 gspr	dw	12+3<<12+spradd,13+3<<12+spradd
 	dw	14+3<<12+spradd,15+3<<12+spradd
 ispr	dw	-2,$16+3<<12+spradd,$17+3<<12+spradd
+jspr	dw 46+3<<12+spradd,29+3<<12+spradd
+	dw	28+3<<12+spradd,59+3<<12+spradd
 lspr	dw	$54+3<<12+spradd,$4f+3<<12+spradd
 	dw	$55+3<<12+spradd,$56+3<<12+spradd
 mspr	dw	$5b+3<<12+spradd,$5c+3<<12+spradd
@@ -673,22 +678,18 @@ nspr	dw	$42+3<<12+spradd,$43+3<<12+spradd
 	dw	$44+3<<12+spradd,$45+3<<12+spradd
 ospr	dw	$38+3<<12+spradd,$39+3<<12+spradd
 	dw	$3a+3<<12+spradd,$3b+3<<12+spradd
+pspr	dw	$34+3<<12+spradd,$35+3<<12+spradd
+	dw	$59+3<<12+spradd,08+3<<12+spradd
 rspr	dw	$57+3<<12+spradd,$58+3<<12+spradd
 	dw	$59+3<<12+spradd,$5a+3<<12+spradd
 sspr	dw	36+3<<12+spradd,37+3<<12+spradd
 	dw	38+3<<12+spradd,39+3<<12+spradd
 tspr	dw	04+3<<12+spradd,05+3<<12+spradd
 	dw	06+3<<12+spradd,07+3<<12+spradd
-vspr	dw	$6d+3<<12+spradd,$6e+3<<12+spradd
-	dw	$6f+3<<12+spradd,$6f+3<<12+spradd+1<<14
-pspr	dw	$34+3<<12+spradd,$35+3<<12+spradd
-	dw	$59+3<<12+spradd,08+3<<12+spradd
-dspr	dw	$38+3<<12+spradd,$48+3<<12+spradd
-	dw	$3a+3<<12+spradd,$48+3<<12+spradd+1<<15
 uspr	dw	00+3<<12+spradd,01+3<<12+spradd
 	dw	$3a+3<<12+spradd,$3b+3<<12+spradd
-jspr	dw 46+3<<12+spradd,29+3<<12+spradd
-	dw	28+3<<12+spradd,59+3<<12+spradd
+vspr	dw	$6d+3<<12+spradd,$6e+3<<12+spradd
+	dw	$6f+3<<12+spradd,$6f+3<<12+spradd+1<<14
 accntspr	dw	02+3<<12+spradd,03+3<<12+spradd
 	dw	$4f+3<<12+spradd,$4f+3<<12+spradd
 
