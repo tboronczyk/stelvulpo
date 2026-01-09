@@ -584,12 +584,12 @@ lev13mes	dw	onespr-sprsbase
 
 trainingmes	dw	tspr-sprsbase
 	dw	rspr-sprsbase
-	dw	aspr-sprsbase
-	dw	ispr-sprsbase
+	dw	espr-sprsbase
+	dw	jspr-sprsbase
 	dw	nspr-sprsbase
-	dw	ispr-sprsbase
-	dw	nspr-sprsbase
-	dw	gspr-sprsbase
+	dw	espr-sprsbase
+	dw	jspr-sprsbase
+	dw	ospr-sprsbase
 	dw	-1
 
 ;continuemes	dw	smco1spr-sprsbase
@@ -687,6 +687,8 @@ dspr	dw	$38+3<<12+spradd,$48+3<<12+spradd
 	dw	$3a+3<<12+spradd,$48+3<<12+spradd+1<<15
 uspr	dw	00+3<<12+spradd,01+3<<12+spradd
 	dw	$3a+3<<12+spradd,$3b+3<<12+spradd
+jspr	dw 46+3<<12+spradd,29+3<<12+spradd
+	dw	28+3<<12+spradd,59+3<<12+spradd
 accntspr	dw	02+3<<12+spradd,03+3<<12+spradd
 	dw	$4f+3<<12+spradd,$4f+3<<12+spradd
 
