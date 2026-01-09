@@ -358,7 +358,7 @@ do_stage	a16
 	rts
 .train	ldy	spritespos
 	sty	mespos
-	lda	#$4848
+	lda	#$4840
 	sta	tpx
 	ldx	#trainingmes-sprsbase
 	jsr	print_sprite_mes
@@ -473,10 +473,10 @@ sprsbase
 stagemes
 	IFEQ	GERMAN
 	dw	sspr-sprsbase
-	dw	tspr-sprsbase
-	dw	aspr-sprsbase
-	dw	gspr-sprsbase
+	dw	cspr-sprsbase
 	dw	espr-sprsbase
+	dw	nspr-sprsbase
+	dw	ospr-sprsbase
 	dw	dashspr-sprsbase
 	dw	-1
 
