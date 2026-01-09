@@ -71,12 +71,12 @@ Do_HDR	=	0
 
 	incfile	d3strats.asm
 
-;	public	bgandpcr
-;	IFEQ	CONTEST
-;	inccru	bgandpcr,data\and.pcr
-;	ELSEIF
-;bgandpcr
-;	ENDC
+	public	bgandpcr
+	IFEQ	CONTEST
+	inccru	bgandpcr,data\and.pcr
+	ELSEIF
+bgandpcr
+	ENDC
 
 start	jmp.l	startboot
 

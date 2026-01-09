@@ -712,8 +712,8 @@ bg_timeup_1	init_bg	mode2
 	ENDC
 
 bg_gameover_1	init_bg	mode1
-;	bg2chr	and
-;	bg2scr	and
+	bg2chr	and
+	bg2scr	and
 	palette	2e
 	set_bg
 	info	von,zon,hon,space

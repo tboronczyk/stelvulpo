@@ -43,7 +43,7 @@
 
 scr_offset	equ	(vchr_logback-vchr_physback)/16
 
-;	extern	bgandpcr
+	extern	bgandpcr
 	extern	bgandccr
 	extern	dogccr
 	extern	bgml	
