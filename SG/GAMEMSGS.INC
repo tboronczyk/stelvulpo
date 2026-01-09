@@ -7,7 +7,7 @@
 
 	message	falcon,<mi pretas, foks''>,<--->,other	; (5)
 	message	falcon3,<mi estas kun vi, foks''>,<--->,other	; (6)
-	message	falcon,<io sekvas min''>,<--->,help	; (7)
+	message	falcon,<iu sekvas min''>,<--->,help	; (7)
 	message	falcon3,<zorgu pri vi mem, foks''>,<--->,other	; (8)
 	message	falcon3,<iu pafis min'' mi mortas''''>,<--->,down	; (9)
 	message	falcon,<mi pafos qiujn''>,<--->,other	; (10)
@@ -26,7 +26,7 @@
 	message	falcon,<my ship's messed up###>,<--->,other	; (21)
 
 	message	falcon3,<hej'' mi pafus tion''>,<--->,other	; (22)
-	message	falcon,<movixu'' mi pafas''>,<--->,other	; (23)
+	message	falcon3,<movixu'' mi pafas''>,<--->,other	; (23)
 
 	; unused
 	message	falcon,<i'll cover your tail!>,<--->,other	; (24)
@@ -51,7 +51,7 @@
 	;unused
 	message	rabbit,<pick me up on your way back!>,<--->,other	; (41)
 
-	message	rabbit3,<hej! mi pafus tiun''>,<--->,other	; (42)
+	message	rabbit3,<hej'' mi pafus tiun''>,<--->,other	; (42)
 	message	rabbit,<movixu''>,<--->,other	; (43)
 
 	; unused
@@ -60,7 +60,7 @@
 	message	frog,<o kej''>,<--->,other	; (45)
 	message	frog3,<kvak'' mi flugas malanta!e, foks''>,<--->,other	; (46)
 	message	frog,<kvak'' helpu min''>,<--->,help	; (47)
-	message	frog3,<kvank'' dankon pro la helpo''>,<--->,other	; (48)
+	message	frog3,<kvak'' dankon pro la helpo''>,<--->,other	; (48)
 	message	frog,<ne'' ne'' kkvvaakk''>,<--->,down	; (49)
 	message	frog3,<mi pafos xin'' kvak''>,<--->,other	; (50)
 	message	frog,<tre facile''>,<--->,other	; (51)
@@ -97,11 +97,11 @@
 	message	rabbit,<atentu, foks''>,<--->,other	; (73)
 	message	frog3,<qi-foje, mi savis vin''>,<--->,other	; (74)
 	message	falcon,<senprobleme, foks''>,<--->,other	; (75)
-	message	rabbit,<kien ni iras nun?>,<--->,other	; (76)
+	message	rabbit3,<kien ni iras    nun?>,<--->,other	; (76)
 	message	frog3,<qio estas b-b-bona''>,<--->,other	; (77)
-	message	frog,<rigardu''>,<--->,other	; (78)
+	message	frog,<rigardu min''>,<--->,other	; (78)
 	message	falcon3,<qio estas bona, foks''>,<--->,other	; (79)
-	message	rabbit,<ni sukcesis'' ek''>,<--->,other	; (80)
+	message	rabbit,<ni sukcesis''>,<--->,other	; (80)
 	message	frog,<b-b-bone''>,<--->,other	; (81)
 	message	falcon3,<estu pli zorgema, foks''>,<--->,other	; (82)
 	message	rabbit3,<zorgeme anta!en, foks''>,<--->,other	; (83)
