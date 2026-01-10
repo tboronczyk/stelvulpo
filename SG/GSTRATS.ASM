@@ -489,7 +489,7 @@ init_strats_l
 	s_set_path		y,gameover
 	s_set_aldata	y,#255,#0
 	s_copy_pos		y,x
-	s_set_alvar		W,y,al_worldx,#-270
+	s_set_alvar		W,y,al_worldx,#-334
 	s_add_alvar		W,y,al_worldy,#120
 	s_add_alvar		W,y,al_worldz,#3400	;800
 .nob
@@ -498,7 +498,7 @@ init_strats_l
 	s_set_path		y,gameover
 	s_set_aldata	y,#255,#0
 	s_copy_pos		y,x
-	s_set_alvar		W,y,al_worldx,#270
+	s_set_alvar		W,y,al_worldx,#206
 	s_add_alvar		W,y,al_worldy,#120
 	s_add_alvar		W,y,al_worldz,#3400	;800
 .nober
@@ -3245,7 +3245,7 @@ gameoverinit_l
 	s_set_path		y,gameover
 	s_set_aldata	y,#255,#0
 	s_copy_pos		y,x
-	s_set_alvar		W,y,al_worldx,#-270
+	s_set_alvar		W,y,al_worldx,#-332
 	s_add_alvar		W,y,al_worldy,#120
 	s_add_alvar		W,y,al_worldz,#3400	;800
 .nob
@@ -3254,7 +3254,7 @@ gameoverinit_l
 	s_set_path		y,gameover
 	s_set_aldata	y,#255,#0
 	s_copy_pos		y,x
-	s_set_alvar		W,y,al_worldx,#270
+	s_set_alvar		W,y,al_worldx,#206
 	s_add_alvar		W,y,al_worldy,#120
 	s_add_alvar		W,y,al_worldz,#3400	;800
 .nober
