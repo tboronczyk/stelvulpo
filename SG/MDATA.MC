@@ -969,7 +969,7 @@ msgtmp	macro
 	REPT	12
 	irs	3,"0","1","2","3","4","5","6","7","8","9","#","-"
 	run	" IFS 1,1,'%$3'"
-	irs	3,"\\","]","^","_","`","a","b","c","d","e","Å","["
+	irs	3,"\\","]","^","_","`","a","b","c","d","e","ÔøΩ","["
 	defs	1,"%$3"
 	ENDC
 	ENDR
@@ -992,7 +992,7 @@ mariomsg	macro
 
 mariomsgs
 msg_starfox
-	db	41,42,43,44,45,46,47,48,0
+	db	41,42,43,44,45,46,47,48,49,50,0
 
 msg_nintendo
 	mariomsg	<NINTENDO>
@@ -1000,39 +1000,39 @@ msg_presented
 	mariomsg	<PRESENTED>
 
 msg_presents
-	mariomsg	<PREZENTAS>
+	mariomsg	<PREZENTITA>
 
 msg_developed
-	mariomsg	<ASSISTED>
+	mariomsg	<KUN HELPO>
 msg_and
 	mariomsg	<AND>
 msg_programmed
-	mariomsg	<PROGRAMMED>
+	mariomsg	<PROGRAMITA>
 msg_by
-	mariomsg	<BY>
+	mariomsg	<DE>
 msg_argonaut
 	mariomsg	<ARGONAUT SOFTWARE>
 
 msg_executive
-	mariomsg	<EXECUTIVE PRODUCER>
+	mariomsg	<PLENUMA PRODUKTORO>
 
 msg_yamauchi
 	mariomsg	<HIROSHI YAMAUCHI>
 
 msg_producer
-	mariomsg	<PRODUCER>
+	mariomsg	<PRODUKTORO>
 
 msg_miyamoto
 	mariomsg	<SHIGERU MIYAMOTO>
 
 msg_director
-	mariomsg	<DIRECTOR>
+	mariomsg	<REQISORO>
 
 msg_eguchi
 	mariomsg	<KATSUYA EGUCHI>
 
 msg_assistantdirector
-	mariomsg	<ASSISTANT DIRECTOR>
+	mariomsg	<HELPANTA REQISORO>
 
 msg_yamada
 	mariomsg	<YOICHI YAMADA>
@@ -1048,7 +1048,7 @@ msg_krister
 	mariomsg	<KRISTER WOMBELL>
 
 msg_3dsystem
-	mariomsg	<3D SYSTEM>
+	mariomsg	<3D-SISTEMO>
 
 msg_pete
 	mariomsg	<PETE WARNES>
@@ -1056,13 +1056,13 @@ msg_carl
 	mariomsg	<CARL GRAHAM>
 
 msg_graphicdesigner
-	mariomsg	<GRAPHIC DESIGNER>
+	mariomsg	<GRAFIKA FASONISTO>
 
 msg_imamura
 	mariomsg	<TAKAYA IMAMURA>
 
 msg_shapedesigner
-	mariomsg	<SHAPE DESIGNER>
+	mariomsg	<FORMA FASONISTO>
 
 msg_watanabe
 	mariomsg	<TSUYOSHI WATANABE>
@@ -1074,7 +1074,7 @@ msg_hirasawa
 	mariomsg	<HAJIME HIRASAWA>
 
 msg_superfxstaff
-	mariomsg	<SUPER FX STAFF>
+	mariomsg	<LABORISTOJ PRI SUPERFX>
 
 msg_ben
 	mariomsg	<BEN CHEESE>
@@ -1101,22 +1101,22 @@ msg_kato
 	mariomsg	<KEIZO KATO>
 
 msg_effects
-	mariomsg	<SOUND EFFECTS>
+	mariomsg	<SONEFIKOJ>
 
 msg_composer
-	mariomsg	<MUSIC COMPOSER>
+	mariomsg	<MUZIKO>
 
 msg_nishida
 	mariomsg	<YASUNARI NISHIDA>
 
 msg_ian
-	mariomsg	<IAN CROWTHER>
+	mariomsg	<>
 
 msg_dan
-	mariomsg	<DAN OWSEN>
+	mariomsg	<TIMOTEO BORONCZYK>
 
 msg_tony
-	mariomsg	<TONY HARMAN>
+	mariomsg	<ZERBIE HYNSON>
 
 msg_kimura
 	mariomsg	<MASATO KIMURA>
@@ -1134,19 +1134,19 @@ msg_theend
 	mariomsg	<THE END>
 
 msg_english
-	mariomsg	<ENGLISH SUPPORT>
+	mariomsg	<SUBTENO PRI ESPERANTO>
 
 msg_japanese
-	mariomsg	<JAPANESE SUPPORT>
+	mariomsg	<SUBTENO PRI LA JAPANA>
 
 msg_software
-	mariomsg	<SOFTWARE SUPPORT>
+	mariomsg	<SUBTENO PRI PROGRAMADO>
 
 msg_rick
 	mariomsg	<RICHARD CLUCAS>
 
 msg_jondean
-	mariomsg	<JON DEAN>
+	mariomsg	<>
 
 msg_ces
 	mariomsg	<CES DEMO>
@@ -1273,9 +1273,9 @@ msg_98	mariomsg	< 98#>
 msg_99	mariomsg	< 99#>
 msg_100	mariomsg	<100#>
 msg_xxx	mariomsg	< --->
-msg_total mariomsg	<TOTAL SCORE>
-msg_ave	mariomsg	<AVERAGE SCORE>
-msg_stage mariomsg	<STAGE>
+msg_total mariomsg	<POENTARO>
+msg_ave	mariomsg	<PROCENTO>
+msg_stage mariomsg	<SCENO>
 
 msg_score1000	mariomsg	<1000>
 msg_score500	mariomsg	<500>
