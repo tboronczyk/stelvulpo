@@ -755,17 +755,17 @@ blackholeexit_Istrat
 	s_end_strat
 
 ;------------------------------------------------------------
-theend_t_istrat
+theend_f_istrat
 	s_start_strat
-	s_set_alptrs	x,theend_t_strat,theend_t_strat,explode_istrat
+	s_set_alptrs	x,theend_f_strat,theend_f_strat,explode_istrat
 	s_set_alvar	B,x,al_sbyte1,#51
 	s_set_alvar	B,x,al_sbyte3,#1
 	s_set_alvar	B,x,al_roty,#128
 	s_set_alvar	B,x,al_rotz,#64
-	s_set_alvar	W,x,al_sword1,#font_t
-	s_set_alvar	W,x,al_sword2,#font_t2
+	s_set_alvar	W,x,al_sword1,#font_f
+	s_set_alvar	W,x,al_sword2,#font_f2
 	s_set_aldata	x,#255,#4
-theend_t_strat	s_start_strat
+theend_f_strat	s_start_strat
 	s_add_alvar	W,x,al_worldx,#-22
 	s_add_alvar	W,x,al_worldy,#19
 	s_add_alvar	B,x,al_rotx,#5
@@ -787,17 +787,17 @@ theend_t_strat	s_start_strat
 	plx
 .fail	s_jmp		theend_zoom_istrat
 
-theend_h_istrat
+theend_i_istrat
 	s_start_strat
-	s_set_alptrs	x,theend_h_strat,theend_h_strat,explode_istrat
+	s_set_alptrs	x,theend_i_strat,theend_i_strat,explode_istrat
 	s_set_alvar	B,x,al_sbyte1,#51
 	s_set_alvar	B,x,al_sbyte3,#2
 	s_set_alvar	B,x,al_roty,#128
 	s_set_alvar	B,x,al_rotz,#192
-	s_set_alvar	W,x,al_sword1,#font_h
-	s_set_alvar	W,x,al_sword2,#font_h2
+	s_set_alvar	W,x,al_sword1,#font_i
+	s_set_alvar	W,x,al_sword2,#font_i2
 	s_set_aldata	x,#255,#4
-theend_h_strat	s_start_strat
+theend_i_strat	s_start_strat
 	s_add_alvar	W,x,al_worldx,#20
 	s_add_alvar	W,x,al_worldy,#-27
 	s_add_alvar	B,x,al_rotx,#5
@@ -805,47 +805,6 @@ theend_h_strat	s_start_strat
 	s_add_playerz	x
 	s_keeprelto_player	x
 	s_decbeq_alvar	B,x,al_sbyte1,theend_zoom2_istrat
-	s_end_strat
-
-theend_e_istrat
-	s_start_strat
-	s_set_alptrs	x,theend_e_strat,theend_e_strat,explode_istrat
-	s_set_alvar	B,x,al_sbyte1,#51
-	s_set_alvar	B,x,al_sbyte3,#1
-	s_set_alvar	B,x,al_roty,#128
-	s_set_alvar	B,x,al_rotz,#64
-	s_set_alvar	W,x,al_sword1,#font_e
-	s_set_alvar	W,x,al_sword2,#font_e2
-	s_set_aldata	x,#255,#4
-theend_e_strat	s_start_strat
-	s_add_alvar	W,x,al_worldx,#19
-	s_add_alvar	W,x,al_worldy,#30
-	s_add_alvar	B,x,al_rotx,#5
-	s_add_alvar	B,x,al_roty,#5
-	s_add_playerz	x
-	s_keeprelto_player	x
-	s_decbeq_alvar	B,x,al_sbyte1,theend_zoom_istrat
-	s_end_strat
-
-theend_e2_istrat
-	s_start_strat
-	s_set_alptrs	x,theend_e2_strat,theend_e2_strat,explode_istrat
-	s_set_alvar	B,x,al_sbyte1,#51
-	s_set_alvar	B,x,al_sbyte3,#2
-	s_set_alvar	B,x,al_roty,#128
-	s_set_alvar	B,x,al_rotz,#128
-	s_set_alvar	W,x,al_sword1,#font_e
-	s_set_alvar	W,x,al_sword2,#font_e3
-	s_set_aldata	x,#255,#4
-theend_e2_strat
-	s_start_strat
-	s_add_alvar	W,x,al_worldx,#-20
-	s_add_alvar	W,x,al_worldy,#26
-	s_add_alvar	B,x,al_rotx,#5
-	s_add_alvar	B,x,al_roty,#5
-	s_add_playerz	x
-	s_keeprelto_player	x
-	s_decbeq_alvar	B,x,al_sbyte1,theend_zoom_istrat
 	s_end_strat
 
 theend_n_istrat
@@ -868,17 +827,17 @@ theend_n_strat	s_start_strat
 	s_decbeq_alvar	B,x,al_sbyte1,theend_zoom2_istrat
 	s_end_strat
 
-theend_d_istrat
+theend_o_istrat
 	s_start_strat
-	s_set_alptrs	x,theend_d_strat,theend_d_strat,explode_istrat
+	s_set_alptrs	x,theend_o_strat,theend_o_strat,explode_istrat
 	s_set_alvar	B,x,al_sbyte1,#51
 	s_set_alvar	B,x,al_sbyte3,#3
 	s_set_alvar	B,x,al_roty,#128
 	s_set_alvar	B,x,al_rotz,#192
-	s_set_alvar	W,x,al_sword1,#font_d
-	s_set_alvar	W,x,al_sword2,#font_d2
+	s_set_alvar	W,x,al_sword1,#font_o
+	s_set_alvar	W,x,al_sword2,#font_o2
 	s_set_aldata	x,#255,#4
-theend_d_strat	s_start_strat
+theend_o_strat	s_start_strat
 	s_add_alvar	W,x,al_worldx,#21
 	s_add_alvar	W,x,al_worldy,#-28
 	s_add_alvar	B,x,al_rotx,#5

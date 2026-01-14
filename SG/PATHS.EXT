@@ -1,12 +1,10 @@
 	global	path_gameover
 ;;	global	path_over
 
-	global	path_theendt
-	global	path_theendh
-	global	path_theende
-	global	path_theende2
+	global	path_theendf
+	global	path_theendi
 	global	path_theendn
-	global	path_theendd
+	global	path_theendo
 	global	path_total
 	global	path_totaln
 	global	path_ave

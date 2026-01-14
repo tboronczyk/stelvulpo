@@ -393,11 +393,10 @@ shapes
 ;	def_shape	pipe_6
 	def_shape	btank_1
 
-	def_shape	font_t
-	def_shape	font_h
-	def_shape	font_e
+	def_shape	font_f
+	def_shape	font_i
 	def_shape	font_n
-	def_shape	font_d
+	def_shape	font_o
 
 	def_shape	gamesh
 	def_shape	oversh

@@ -39,12 +39,10 @@
 
 	mapjsr	actualcreds
 
-	pathobj	000,972,-969,1000,font_t,theendt,6,4
-	pathobj	000,-1120,1377,1000,font_h,theendh,6,4
-	pathobj	000,-1019,-1530,1000,font_e,theende,6,4
-	pathobj	000,1070,-1326,1000,font_e,theende2,6,4
-	pathobj	000,1550+29,1323+54,1000,font_n,theendn,6,4
-	pathobj	000,-1050+129,1428,1000,font_d,theendd,6,4
+	pathobj	000,1044,-969,1000,font_f,theendf,6,4
+	pathobj	000,-1050,1377,1000,font_i,theendi,6,4
+	pathobj	000,1498,1323+54,1000,font_n,theendn,6,4
+	pathobj	000,-990,1428,1000,font_o,theendo,6,4
 	mapwait	6000
 	setvar.b	levelfinished,le_endofcreds
 .lp	mapwait	5000

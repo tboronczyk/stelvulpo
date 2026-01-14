@@ -18,10 +18,8 @@
 	global	bholeexit2_istrat
 	global	bholeexit3_istrat
 
-	global	theend_t_istrat
-	global	theend_h_istrat
-	global	theend_e_istrat
-	global	theend_e2_istrat
+	global	theend_f_istrat
+	global	theend_i_istrat
 	global	theend_n_istrat
-	global	theend_d_istrat
+	global	theend_o_istrat
 	global	theenddead

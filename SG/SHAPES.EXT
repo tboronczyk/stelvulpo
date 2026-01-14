@@ -543,17 +543,14 @@
 	extern	slot_4
 	extern	tower_2a
 
-	extern	font_t
-	extern	font_h
-	extern	font_e
+	extern	font_f
+	extern	font_i
 	extern	font_n
-	extern	font_d
-	extern	font_t2
-	extern	font_h2
-	extern	font_e2
-	extern	font_e3
+	extern	font_o
+	extern	font_f2
+	extern	font_i2
 	extern	font_n2
-	extern	font_d2
+	extern	font_o2
 
 	extern	training
 	extern	face_0_1

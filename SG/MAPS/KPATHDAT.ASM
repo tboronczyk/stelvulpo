@@ -38,7 +38,7 @@ checkifend	macro
 
 
 
-	START_PATH	theendt
+	START_PATH	theendf
 	P_RELTOPLAYER	ON
 	P_ALWAYSGENVECS	OFF
 	P_ZREMOVE	ON
@@ -51,7 +51,7 @@ checkifend	macro
 	P_SET	roty,0
 .wait	P_GOTO	endin	.wait
 
-	START_PATH	theendh
+	START_PATH	theendi
 	P_RELTOPLAYER	ON
 	P_ALWAYSGENVECS	OFF
 	P_ZREMOVE	ON
@@ -59,36 +59,6 @@ checkifend	macro
 	P_SET	roty,128
 .lp	P_ADD	worldx,20
 	P_ADD	worldy,-27
-	P_ADD	rotx,5
-	P_ADD	roty,5
-	P_LOOP	50,.lp
-	P_SET	rotx,0
-	P_SET	roty,0
-.wait	P_GOTO	endin	.wait
-
-	START_PATH	theende
-	P_RELTOPLAYER	ON
-	P_ALWAYSGENVECS	OFF
-	P_ZREMOVE	ON
-	P_SET	rotx,0
-	P_SET	roty,128
-.lp	P_ADD	worldx,19
-	P_ADD	worldy,30
-	P_ADD	rotx,5
-	P_ADD	roty,5
-	P_LOOP	50,.lp
-	P_SET	rotx,0
-	P_SET	roty,0
-.wait	P_GOTO	endin	.wait
-
-	START_PATH	theende2
-	P_RELTOPLAYER	ON
-	P_ALWAYSGENVECS	OFF
-	P_ZREMOVE	ON
-	P_SET	rotx,0
-	P_SET	roty,128
-.lp	P_ADD	worldx,-20
-	P_ADD	worldy,26
 	P_ADD	rotx,5
 	P_ADD	roty,5
 	P_LOOP	50,.lp
@@ -111,7 +81,7 @@ checkifend	macro
 	P_SET	roty,0
 .wait	P_GOTO	endin	.wait
 
-	START_PATH	theendd
+	START_PATH	theendo
 	P_RELTOPLAYER	ON
 	P_ALWAYSGENVECS	OFF
 	P_ZREMOVE	ON

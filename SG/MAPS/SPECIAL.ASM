@@ -104,12 +104,10 @@ endofspecialmap
 
 	mapwait	6000
 
-.ll2	mapobj	000,972,-969,1000,font_t2,theend_t_istrat
-	mapobj	000,-1120,1377,1000,font_h2,theend_h_istrat
-	mapobj	000,-1019,-1530,1000,font_e2,theend_e_istrat
-	mapobj	000,1070,-1326,1000,font_e3,theend_e2_istrat
+.ll2	mapobj	000,972,-969,1000,font_f2,theend_f_istrat
+	mapobj	000,-1120,1377,1000,font_i2,theend_i_istrat
 	mapobj	000,1550+29,1323+54,1000,font_n2,theend_n_istrat
-	mapobj	000,-1050+129,1428,1000,font_d2,theend_d_istrat
+	mapobj	000,-1050+129,1428,1000,font_o2,theend_o_istrat
 .ll	mapif	theenddead,.cont
 	mapgoto	.ll
 .cont
