@@ -997,10 +997,10 @@ msg_starfox
 msg_nintendo
 	mariomsg	<NINTENDO>
 msg_presented
-	mariomsg	<PRESENTED>
+	mariomsg	<PREZENTITA >
 
 msg_presents
-	mariomsg	<PREZENTITA>
+	mariomsg	<PREZENTAS>
 
 msg_developed
 	mariomsg	<KUN HELPO>
@@ -1109,13 +1109,13 @@ msg_composer
 msg_nishida
 	mariomsg	<YASUNARI NISHIDA>
 
-msg_ian
-	mariomsg	<>
+msg_steelemage
+	mariomsg	<STEELEMAGE>
 
-msg_dan
+msg_timoteo
 	mariomsg	<TIMOTEO BORONCZYK>
 
-msg_tony
+msg_zerbie
 	mariomsg	<ZERBIE HYNSON>
 
 msg_kimura
@@ -1133,7 +1133,7 @@ msg_yamamoto
 msg_theend
 	mariomsg	<THE END>
 
-msg_english
+msg_esperanto
 	mariomsg	<SUBTENO PRI ESPERANTO>
 
 msg_japanese
