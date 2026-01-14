@@ -729,7 +729,7 @@ base_0_f1	Faces
 	ifne	DO_HDR
 
 font_f	ShapeHdr	font_f_P,0,font_f_F,0,0,0,0,0,0,20,25,10,33,id_0_c,0,0,0,0,<font_f>
-font_f2	ShapeHdr	font_f_P,0,font_f_F,0,0,0,0,0,0,20,25,10,33,id_0_c,0,0,0,0,<font_f>
+font_f2	ShapeHdr	font_f_P,0,font_f_F,0,0,0,0,0,0,20,25,10,33,id_1_c,0,0,0,0,<font_f>
 	elseif
 font_f_P
 	Pointsb	20
