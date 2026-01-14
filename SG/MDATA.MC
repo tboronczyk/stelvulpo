@@ -1169,109 +1169,109 @@ msg_6	mariomsg	<6>
 msg_7	mariomsg	<7>
 msg_8	mariomsg	<8>
 msg_9	mariomsg	<9>
-msg_per	mariomsg	<#>
+msg_per	db $26,$00  ; <#>
 
-msg_00	mariomsg	<  0#>
-msg_01	mariomsg	<  1#>
-msg_02	mariomsg	<  2#>
-msg_03	mariomsg	<  3#>
-msg_04	mariomsg	<  4#>
-msg_05	mariomsg	<  5#>
-msg_06	mariomsg	<  6#>
-msg_07	mariomsg	<  7#>
-msg_08	mariomsg	<  8#>
-msg_09	mariomsg	<  9#>
-msg_10	mariomsg	< 10#>
-msg_11	mariomsg	< 11#>
-msg_12	mariomsg	< 12#>
-msg_13	mariomsg	< 13#>
-msg_14	mariomsg	< 14#>
-msg_15	mariomsg	< 15#>
-msg_16	mariomsg	< 16#>
-msg_17	mariomsg	< 17#>
-msg_18	mariomsg	< 18#>
-msg_19	mariomsg	< 19#>
-msg_20	mariomsg	< 20#>
-msg_21	mariomsg	< 21#>
-msg_22	mariomsg	< 22#>
-msg_23	mariomsg	< 23#>
-msg_24	mariomsg	< 24#>
-msg_25	mariomsg	< 25#>
-msg_26	mariomsg	< 26#>
-msg_27	mariomsg	< 27#>
-msg_28	mariomsg	< 28#>
-msg_29	mariomsg	< 29#>
-msg_30	mariomsg	< 30#>
-msg_31	mariomsg	< 31#>
-msg_32	mariomsg	< 32#>
-msg_33	mariomsg	< 33#>
-msg_34	mariomsg	< 34#>
-msg_35	mariomsg	< 35#>
-msg_36	mariomsg	< 36#>
-msg_37	mariomsg	< 37#>
-msg_38	mariomsg	< 38#>
-msg_39	mariomsg	< 39#>
-msg_40	mariomsg	< 40#>
-msg_41	mariomsg	< 41#>
-msg_42	mariomsg	< 42#>
-msg_43	mariomsg	< 43#>
-msg_44	mariomsg	< 44#>
-msg_45	mariomsg	< 45#>
-msg_46	mariomsg	< 46#>
-msg_47	mariomsg	< 47#>
-msg_48	mariomsg	< 48#>
-msg_49	mariomsg	< 49#>
-msg_50	mariomsg	< 50#>
-msg_51	mariomsg	< 51#>
-msg_52	mariomsg	< 52#>
-msg_53	mariomsg	< 53#>
-msg_54	mariomsg	< 54#>
-msg_55	mariomsg	< 55#>
-msg_56	mariomsg	< 56#>
-msg_57	mariomsg	< 57#>
-msg_58	mariomsg	< 58#>
-msg_59	mariomsg	< 59#>
-msg_60	mariomsg	< 60#>
-msg_61	mariomsg	< 61#>
-msg_62	mariomsg	< 62#>
-msg_63	mariomsg	< 63#>
-msg_64	mariomsg	< 64#>
-msg_65	mariomsg	< 65#>
-msg_66	mariomsg	< 66#>
-msg_67	mariomsg	< 67#>
-msg_68	mariomsg	< 68#>
-msg_69	mariomsg	< 69#>
-msg_70	mariomsg	< 70#>
-msg_71	mariomsg	< 71#>
-msg_72	mariomsg	< 72#>
-msg_73	mariomsg	< 73#>
-msg_74	mariomsg	< 74#>
-msg_75	mariomsg	< 75#>
-msg_76	mariomsg	< 76#>
-msg_77	mariomsg	< 77#>
-msg_78	mariomsg	< 78#>
-msg_79	mariomsg	< 79#>
-msg_80	mariomsg	< 80#>
-msg_81	mariomsg	< 81#>
-msg_82	mariomsg	< 82#>
-msg_83	mariomsg	< 83#>
-msg_84	mariomsg	< 84#>
-msg_85	mariomsg	< 85#>
-msg_86	mariomsg	< 86#>
-msg_87	mariomsg	< 87#>
-msg_88	mariomsg	< 88#>
-msg_89	mariomsg	< 89#>
-msg_90	mariomsg	< 90#>
-msg_91	mariomsg	< 91#>
-msg_92	mariomsg	< 92#>
-msg_93	mariomsg	< 93#>
-msg_94	mariomsg	< 94#>
-msg_95	mariomsg	< 95#>
-msg_96	mariomsg	< 96#>
-msg_97	mariomsg	< 97#>
-msg_98	mariomsg	< 98#>
-msg_99	mariomsg	< 99#>
-msg_100	mariomsg	<100#>
+msg_00  db $28,$28,$1C,$26,$00   ; <  0#>
+msg_01  db $28,$28,$1D,$26,$00   ; <  1#>
+msg_02  db $28,$28,$1E,$26,$00   ; <  2#>
+msg_03  db $28,$28,$1F,$26,$00   ; <  3#>
+msg_04  db $28,$28,$20,$26,$00   ; <  4#>
+msg_05  db $28,$28,$21,$26,$00   ; <  5#>
+msg_06  db $28,$28,$22,$26,$00   ; <  6#>
+msg_07  db $28,$28,$23,$26,$00   ; <  7#>
+msg_08  db $28,$28,$24,$26,$00   ; <  8#>
+msg_09  db $28,$28,$25,$26,$00   ; <  9#>
+msg_10  db $28,$1D,$1C,$26,$00   ; < 10#>
+msg_11  db $28,$1D,$1D,$26,$00   ; < 11#>
+msg_12  db $28,$1D,$1E,$26,$00   ; < 12#>
+msg_13  db $28,$1D,$1F,$26,$00   ; < 13#>
+msg_14  db $28,$1D,$20,$26,$00   ; < 14#>
+msg_15  db $28,$1D,$21,$26,$00   ; < 15#>
+msg_16  db $28,$1D,$22,$26,$00   ; < 16#>
+msg_17  db $28,$1D,$23,$26,$00   ; < 17#>
+msg_18  db $28,$1D,$24,$26,$00   ; < 18#>
+msg_19  db $28,$1D,$25,$26,$00   ; < 19#>
+msg_20  db $28,$1E,$1C,$26,$00   ; < 20#>
+msg_21  db $28,$1E,$1D,$26,$00   ; < 21#>
+msg_22  db $28,$1E,$1E,$26,$00   ; < 22#>
+msg_23  db $28,$1E,$1F,$26,$00   ; < 23#>
+msg_24  db $28,$1E,$20,$26,$00   ; < 24#>
+msg_25  db $28,$1E,$21,$26,$00   ; < 25#>
+msg_26  db $28,$1E,$22,$26,$00   ; < 26#>
+msg_27  db $28,$1E,$23,$26,$00   ; < 27#>
+msg_28  db $28,$1E,$24,$26,$00   ; < 28#>
+msg_29  db $28,$1E,$25,$26,$00   ; < 29#>
+msg_30  db $28,$1F,$1C,$26,$00   ; < 30#>
+msg_31  db $28,$1F,$1D,$26,$00   ; < 31#>
+msg_32  db $28,$1F,$1E,$26,$00   ; < 32#>
+msg_33  db $28,$1F,$1F,$26,$00   ; < 33#>
+msg_34  db $28,$1F,$20,$26,$00   ; < 34#>
+msg_35  db $28,$1F,$21,$26,$00   ; < 35#>
+msg_36  db $28,$1F,$22,$26,$00   ; < 36#>
+msg_37  db $28,$1F,$23,$26,$00   ; < 37#>
+msg_38  db $28,$1F,$24,$26,$00   ; < 38#>
+msg_39  db $28,$1F,$25,$26,$00   ; < 39#>
+msg_40  db $28,$20,$1C,$26,$00   ; < 40#>
+msg_41  db $28,$20,$1D,$26,$00   ; < 41#>
+msg_42  db $28,$20,$1E,$26,$00   ; < 42#>
+msg_43  db $28,$20,$1F,$26,$00   ; < 43#>
+msg_44  db $28,$20,$20,$26,$00   ; < 44#>
+msg_45  db $28,$20,$21,$26,$00   ; < 45#>
+msg_46  db $28,$20,$22,$26,$00   ; < 46#>
+msg_47  db $28,$20,$23,$26,$00   ; < 47#>
+msg_48  db $28,$20,$24,$26,$00   ; < 48#>
+msg_49  db $28,$20,$25,$26,$00   ; < 49#>
+msg_50  db $28,$21,$1C,$26,$00   ; < 50#>
+msg_51  db $28,$21,$1D,$26,$00   ; < 51#>
+msg_52  db $28,$21,$1E,$26,$00   ; < 52#>
+msg_53  db $28,$21,$1F,$26,$00   ; < 53#>
+msg_54  db $28,$21,$20,$26,$00   ; < 54#>
+msg_55  db $28,$21,$21,$26,$00   ; < 55#>
+msg_56  db $28,$21,$22,$26,$00   ; < 56#>
+msg_57  db $28,$21,$23,$26,$00   ; < 57#>
+msg_58  db $28,$21,$24,$26,$00   ; < 58#>
+msg_59  db $28,$21,$25,$26,$00   ; < 59#>
+msg_60  db $28,$22,$1C,$26,$00   ; < 60#>
+msg_61  db $28,$22,$1D,$26,$00   ; < 61#>
+msg_62  db $28,$22,$1E,$26,$00   ; < 62#>
+msg_63  db $28,$22,$1F,$26,$00   ; < 63#>
+msg_64  db $28,$22,$20,$26,$00   ; < 64#>
+msg_65  db $28,$22,$21,$26,$00   ; < 65#>
+msg_66  db $28,$22,$22,$26,$00   ; < 66#>
+msg_67  db $28,$22,$23,$26,$00   ; < 67#>
+msg_68  db $28,$22,$24,$26,$00   ; < 68#>
+msg_69  db $28,$22,$25,$26,$00   ; < 69#>
+msg_70  db $28,$23,$1C,$26,$00   ; < 70#>
+msg_71  db $28,$23,$1D,$26,$00   ; < 71#>
+msg_72  db $28,$23,$1E,$26,$00   ; < 72#>
+msg_73  db $28,$23,$1F,$26,$00   ; < 73#>
+msg_74  db $28,$23,$20,$26,$00   ; < 74#>
+msg_75  db $28,$23,$21,$26,$00   ; < 75#>
+msg_76  db $28,$23,$22,$26,$00   ; < 76#>
+msg_77  db $28,$23,$23,$26,$00   ; < 77#>
+msg_78  db $28,$23,$24,$26,$00   ; < 78#>
+msg_79  db $28,$23,$25,$26,$00   ; < 79#>
+msg_80  db $28,$24,$1C,$26,$00   ; < 80#>
+msg_81  db $28,$24,$1D,$26,$00   ; < 81#>
+msg_82  db $28,$24,$1E,$26,$00   ; < 82#>
+msg_83  db $28,$24,$1F,$26,$00   ; < 83#>
+msg_84  db $28,$24,$20,$26,$00   ; < 84#>
+msg_85  db $28,$24,$21,$26,$00   ; < 85#>
+msg_86  db $28,$24,$22,$26,$00   ; < 86#>
+msg_87  db $28,$24,$23,$26,$00   ; < 87#>
+msg_88  db $28,$24,$24,$26,$00   ; < 88#>
+msg_89  db $28,$24,$25,$26,$00   ; < 89#>
+msg_90  db $28,$25,$1C,$26,$00   ; < 90#>
+msg_91  db $28,$25,$1D,$26,$00   ; < 91#>
+msg_92  db $28,$25,$1E,$26,$00   ; < 92#>
+msg_93  db $28,$25,$1F,$26,$00   ; < 93#>
+msg_94  db $28,$25,$20,$26,$00   ; < 94#>
+msg_95  db $28,$25,$21,$26,$00   ; < 95#>
+msg_96  db $28,$25,$22,$26,$00   ; < 96#>
+msg_97  db $28,$25,$23,$26,$00   ; < 97#>
+msg_98  db $28,$25,$24,$26,$00   ; < 98#>
+msg_99  db $28,$25,$25,$26,$00   ; < 99#>
+msg_100  db $1D,$1C,$1C,$26,$00  ; <100#>
 msg_xxx	mariomsg	< --->
 msg_total mariomsg	<POENTARO>
 msg_ave	mariomsg	<PROCENTO>
