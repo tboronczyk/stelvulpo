@@ -58,7 +58,7 @@
 	message	rabbit,<i'm off your starboard!>,<--->,other	; (44)
 
 	message	frog,<o kej''>,<--->,other	; (45)
-	message	frog3,<kvak'' mi flugas malanta!e, foks''>,<--->,other	; (46)
+	message	frog3,<kvak'' mi flugas malanta!e''>,<--->,other	; (46)
 	message	frog,<kvak'' helpu min''>,<--->,help	; (47)
 	message	frog3,<kvak'' dankon pro la helpo''>,<--->,other	; (48)
 	message	frog,<ne'' ne'' kkvvaakk''>,<--->,down	; (49)
@@ -105,7 +105,7 @@
 	message	frog,<b-b-bone''>,<--->,other	; (81)
 	message	falcon3,<estu pli zorgema, foks''>,<--->,other	; (82)
 	message	rabbit3,<zorgeme anta!en, foks''>,<--->,other	; (83)
-	message	frog3,<memoru ne p-p-pafu min''>,<--->,help	; (84)
+	message	frog3,<memoru, ne p-p-pafu min''>,<--->,help	; (84)
 	message	falcon,<estas malbone''>,<--->,help	; (85)
 	message	rabbit3,<mi timas, ke mi mortos''>,<--->,help	; (86)
 	message	frog3,<mia wipo difektixas### kvak''>,<--->,help	; (87)
@@ -113,11 +113,11 @@
 	message	fox,<teamo stelvulpo, nia lasta rimedo estas kontra!ataki venenon'' bonan wancon''>,<--->,other	; (88)
 	message	fox,<la armeo de androso intencas konstrui militbazon en qi tiu loko'' detruu ilian rokpulvigilon''>,<--->,other	; (89)
 	message	fox,<la kosma militwiparo konsistas el fortaj batalwipoj'' detruu iliajn fontojn de energio''>,<--->,other	; (90)
-	message	fox,<nepre uzu viajn retrigilojn, se vi tro rapidas'' atentu pri miaj arvingoj''>,<--->,other	; (91)
+	message	fox,<nepre uzu viajn bremsojn, se vi tro rapidas'' atentu pri miaj arvingoj''>,<--->,other	; (91)
 	message	fox,<androso kawas sin qe veneno'' foks, vi devas trovi lian kernan cerbon kaj detrui xin''>,<--->,other	; (92)
 
 	message	fox,<        KORNERIO - LA BAZO>,<       CORNERIA - THE BASE>,other	; (93)
-	message	fox,<          ASTEROIA ZONO>,<          ASTEROID BELT>,other	; (94)
+	message	fox,<          ASTEROIDA ZONO>,<          ASTEROID BELT>,other	; (94)
 	message	fox,<            SECTORO X>,<             SECTOR  X>,other	; (95)
 	message	fox,<         PLANEDO FORTUNO>,<      THE PLANET FORTUNA>,other	; (96)
 	message	fox,<        KOSMA MILITWIPARO>,<    THE ANDORF SPACE ARMADA>,other	; (97)
@@ -140,10 +140,9 @@
 	message	fox,<jen la kosma tombejo, kreita de la eksperimentoj de androso, kie malaperis via patro, foks''>,<--->,other	; (113)
 	message	fox,<qu qiuj bonstatas, foks? vi kawe alvenas al la bazo de veneno''>,<--->,other	; (114)
 	message	fox,<respondu, arvingoj'' kie vi estas, foks? ni bezonas vin protekti kornerion''>,<--->,other	; (115)
-	message	fox,<vi persistis xis nun### via sorto estas venki androson'' ni dependas je vi, foks''>,<--->,other	; (116)
+	message	fox,<vi persistis xis nun### venki androson estas via sorto'' ni dependas je vi, foks''>,<--->,other	; (116)
 
-	;unused
-	message	falcon3,<the attack- carrier will be mine!>,<--->,other	; (117)
+	message	falcon3,<mi detruos la aviportan wipon''>,<--->,other	; (117)
 
 	message	pepper3,<nu, foks'' ni vidu vian kapablon''>,<--->,other	; (118)
 	message	rabbit3,<ni devas flugi tra qiuj ringoj''>,<--->,other	; (119)
