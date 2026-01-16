@@ -2,6 +2,8 @@
 
 Star Fox in Esperanto
 
+*Legu [starfox-readme.txt](starfox-readme.txt) por esperanta priskribo*
+
 This project is a fan translation of
 [Star Fox](http://en.wikipedia.org/wiki/Star_Fox_%28video_game%29), a video
 game for the Super NES platform, to Esperanto. All copyrights to the original
@@ -14,7 +16,7 @@ Development is based of StarFoxForNewModders.
 You *must* own a physical copy of the Star Fox cartridge. Downloading the ROM
 of any game which you do not own is piracy.
 
-  * Star Fox - CRC32 `8FC4E6D0`
+  * Star Fox - CRC32 `06446e7c`
 
 ## Development
 
