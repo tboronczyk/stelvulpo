@@ -76,19 +76,17 @@ actualcreds
 	textpath	1000,2000,0450,3500,yamashiro,dsideslip,14,32
 
 	mapwait	credwait
-	textpath	1000,2000,-600,3500,esperanto,dsideslip,14
-	textpath	1000,2000,-300,3500,timoteo,dsideslip,14,32
-	textpath	1000,2000,0000,3500,zerbie,dsideslip,14,32
-	textpath	1000,2000,0300,3500,steelemage,dsideslip,14,32
-	textpath	1000,2000,0600,3500,jondean,dsideslip,14,32
+	textpath	1000,2000,-600,3500,english,dsideslip,14
+	textpath	1000,2000,-300,3500,dan,dsideslip,14,32
+	textpath	1000,2000,0000,3500,tony,dsideslip,14,32
+	textpath	1000,2000,0300,3500,jondean,dsideslip,14,32
+	textpath	1000,2000,0600,3500,ian,dsideslip,14,32
 
 	mapwait	credwait
-	textpath	1000,2000,-1000,3500,japanese,dsideslip,14
-	textpath	1000,2000,-600,3500,kato,dsideslip,14,32
-	textpath	1000,2000,-300,3500,shimizu,dsideslip,14,32
-	textpath	1000,2000,0000,3500,kimura,dsideslip,14,32
-	textpath	1000,2000,0300,3500,yajima,dsideslip,14,32
-	textpath	1000,2000,0600,3500,yamamoto,dsideslip,14,32
+	textpath	1000,2000,-450,3500,esperanto,dsideslip,14
+	textpath	1000,2000,-150,3500,timoteo,dsideslip,14,32
+	textpath	1000,2000,0150,3500,zerbie,dsideslip,14,32
+	textpath	1000,2000,0450,3500,steelemage,dsideslip,14,32
 
 	IFNE	GERMAN
 	mapwait	credwait

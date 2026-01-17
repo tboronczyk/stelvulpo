@@ -1,17 +1,17 @@
 	IFEQ	GERMAN
-pausetxt	TXT	14,<PA)ZITA>
+pausetxt	TXT	14,<PA)ZITA>	; <PAUSED>
 	ELSEIF
 pausetxt	TXT	14,<PAUSE>
 	ENDC
 
 	IFEQ	GERMAN
-totalscoretxt	TXT	14,<TOTALAJ POENTOJ>
+totalscoretxt	TXT	14,<TOTALAJ POENTOJ>	; <TOTAL SCORE>
 	ELSEIF
 totalscoretxt	TXT	14,<GESAMTPUNKTZAHL>
 	ENDC
 
 	IFEQ	GERMAN
-scoretxt	TXT	14,<PROCENTO>
+scoretxt	TXT	14,<PROCENTO>	; <SCORE>
 	ELSEIF
 scoretxt	TXT	14,<PUNKTE>
 	ENDC
@@ -21,7 +21,7 @@ percenttxt	TXT	14,<PERCENTAGE>
 
 	IFEQ	GERMAN
 	IFEQ	CONTEST
-bonustxt	TXT	14,<KREDITO ALDONITA>
+bonustxt	TXT	14,<KREDITO ALDONITA>	; <BONUS 1 CREDIT>
 	ELSEIF
 bonustxt	TXT	14,<PERFECT BONUS 1OOOOO>
 	ENDC
@@ -33,16 +33,16 @@ percenttxt2	TXT	14,<%>
 perfecttxt	TXT	14,<PERFECT//>
 
 	IFEQ	GERMAN
-teamtxt	TXT	14,<WIRMILOJ DE SKIPANOJ>
+teamtxt	TXT	14,<WIRMILOJ DE SKIPANOJ>	; <SHIELD OF TEAMMATES>
 	ELSEIF
 teamtxt	TXT	14,<TEAM POWER>
 	ENDC
 
-frogtxt	TXT	14,<GLIT=JO>
-bunnytxt	TXT	14,<PE=JO>
-cocktxt	TXT	14,<FALKO>
-deadtxt	TXT	14,<MORTIS>
-stagetxt	TXT	14,<SCENO>
+frogtxt	TXT	14,<GLIT=JO>	; <SLIPPY>
+bunnytxt	TXT	14,<PE=JO>	; <PEPPY>
+cocktxt	TXT	14,<FALKO>	; <FALCO>
+deadtxt	TXT	14,<MORTIS>	; <IS DOWN>
+stagetxt	TXT	14,<SCENO>	; <STAGE>
 cesmintxt	TXT	2,<m>
 cessectxt	TXT	2,<s>
 scoretxt2	TXT	2,<score>

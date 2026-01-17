@@ -1097,8 +1097,8 @@ msg_thanksto
 msg_jez
 	mariomsg	<JEZ SAN>
 
-msg_kato
-	mariomsg	<KEIZO KATO>
+msg_timoteo
+	mariomsg	<TIMOTEO BORONCZYK>
 
 msg_effects
 	mariomsg	<SONEFIKOJ>
@@ -1109,23 +1109,23 @@ msg_composer
 msg_nishida
 	mariomsg	<YASUNARI NISHIDA>
 
-msg_steelemage
-	mariomsg	<STEELEMAGE>
+msg_ian
+	mariomsg	<IAN CROWTHER>
 
-msg_timoteo
-	mariomsg	<TIMOTEO BORONCZYK>
+msg_dan
+	mariomsg	<DAN OWEN>
 
-msg_zerbie
-	mariomsg	<ZERBIE HYNSON>
+msg_tony
+	mariomsg	<TONY HARMAN>
 
 msg_kimura
 	mariomsg	<MASATO KIMURA>
 
-msg_shimizu
-	mariomsg	<TAKAO SHIMIZU>
+msg_zerbie
+	mariomsg	<ZERBIE HYNSON>
 
-msg_yajima
-	mariomsg	<HAJIME YAJIMA>
+msg_steelemage
+	mariomsg	<STEELEMAGE>
 
 msg_yamamoto
 	mariomsg	<KENJI YAMAMOTO>
@@ -1133,20 +1133,20 @@ msg_yamamoto
 msg_theend
 	mariomsg	<THE END>
 
+msg_english
+	mariomsg	<SUBTENO PRI LA ANGLA>
+
 msg_esperanto
 	mariomsg	<SUBTENO PRI ESPERANTO>
 
-msg_japanese
-	mariomsg	<SUBTENO PRI LA JAPANA>
-
 msg_software
-	mariomsg	<SUBTENO PRI PROGRAMADO>
+	mariomsg	<SUBTENO PRI SOFTVARO>
 
 msg_rick
 	mariomsg	<RICHARD CLUCAS>
 
 msg_jondean
-	mariomsg	<>
+	mariomsg	<JON DEAN>
 
 msg_ces
 	mariomsg	<CES DEMO>
