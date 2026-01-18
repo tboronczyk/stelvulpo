@@ -1,0 +1,3 @@
+make.exe
+pause
+exit
