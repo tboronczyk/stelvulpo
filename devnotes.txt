@@ -1,0 +1,101 @@
+DEV NOTES
+
+CCR and PCR files in SG/DATA are compressed. Use sf_decrunch
+to decompress and sf_crunch to recompress.
+
+Files in SG/MSPRITES are interleaved. use fx2cgx to separate
+images and cgx2fx to recombine.
+
+If working in Cygwin and want to compile tools for use on
+Windows without Cygwin, can cross compile with mingw.
+
+x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ filename.cpp -o cmdname
+
+MOJI_O.FON used for in-game text
+MOJI_2.FON used for end credits
+
+eo_comms is slop utility to preview comm messages (check for
+spacing and number of lines used)
+
+starfox_spc_driver - compile and copy SGSOUND0.BIN to SG/SND
+
+star-fox-sound-bins - compile and copy to SG/SND
+
+Translatable text is in:
+
+ ENDSEQ.ASM - parade of enemies
+ GAMEMSGS.INC - comm and briefing messages
+ GAMETEXT.ASM - end of level text
+ MDATA.MC - end credits 
+
+THE END at end credits is 3D modeled letters. See 
+github.com/Sunlitspace542/FastFX (letter forms are in
+KSHAPES.ASM and SHAPES2.ASM)
+
+AND.PCR - Andross PCR restored
+CONT-2.CCR - Settings Controller
+FOX.CCR - Continue
+MAP.CCR - Level Map
+OBJ-1.CCR - HUD (ENEMY, SHILEDS), STAGE/TRAINING/SCRAMBLE
+CP.CCR - Start Screen (PRESS START)
+TI-3-US.CCR - logo
+
+re-arranged sounds (wing blaster) or playing/duration details
+in starfox_spc_driver/SGSOUND0.ASM
+
+replace sounds in star-fox-sound-bins
+
+Audio samples are in brr
+
+Record originals as mono 32000 Hz 16-bit signed WAV
+use Audacity Effect > Pitch and Tempo > Change speed and Pitch to shrink
+Then encode with snessr:
+
+tools/snessr.exe -e input.wav output.brr
+
+SGSOUND1
+SMPL_12 INCOMMING ENEMY
+SMPL_13 WING
+SMPL_14 DAMAGED
+SMPL_15 TWIN BLASTERS
+SMPL_16 SHIELDS
+SMPL_18 REPAIRED
+
+SGSOUND5
+SMPL_00 EMERGENCY
+SMPL_01 PREPARE FOR LAUNCH
+SMPL_05 INCOMMING ENEMY FIGHETERS
+
+SGSOUND6
+SMPL_00 GOOD LUCK
+
+SGSOUND8
+SMPL_00 COME IN CORNERIA
+SMPL_01 THIS IS CORNERIA
+SMPL_02 PEPPER SPEAKING
+SMPL_03 CONGRATULATIONS ON A JOB WELL DONE
+SMPL_04 I'M HEADING BACK TO CORNERIA
+SMPL_08 ROGER
+
+SGSOUND9
+SMPL_00 LET'S GO
+
+
+Full compile (from Cygwin):
+
+cd starfox_spc_driver
+cmd /c make.bat
+cp SGSOUND0.bin ../SG/SND/SGSOUND0.BIN
+cd ../star-fox-sound-bins
+cmd /c make.exe SHELL=cmd.exe
+cp build/*BIN ../SG/SND/
+cd ..
+./build.cmd
+
+
+Edit RAM to cheat during testing:
+Enable dual blasters: Set bit 0 of PSHIPFLAGS2 (RAM $000014D9) to $01
+Enable plasma blasters: Set bit 4 of PSHIPFLAGS3 (RAM $000014DA) to $10
+Number of smart bombs: Set SPECWEPCNT (RAM $000015AF)
+
+
