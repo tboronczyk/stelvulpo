@@ -25,6 +25,7 @@ Other code/repositories of interest:
   * [cgx2fx/fx2cgx](https://github.com/Sunlitspace542/ultrastarfox/tree/main/TOOLS/cgx2fx_fx2cgx_src)
   * [FastFX](https://github.com/Sunlitspace542/FastFX)
   * [sf_crunch/sf_decrunch](https://www.romhacking.net/utilities/1543/)
+  * [starfox_spc_driver](https://github.com/phonymike/starfox_spc_driver)
   * [star-fox-sound-bins](https://github.com/Sunlitspace542/star-fox-sound-bins)
 
 ## Screenshots
