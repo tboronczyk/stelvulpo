@@ -2947,12 +2947,12 @@ se_twinblasterpowerup: ; Twin blaster powerup
 	db $00
 
 se_shieldpowerup: ; Shield powerup
-	db $E0, $2C, $18, $00, $8C, $30, $7D, $8C
+	db $E0, $2C, $30, $00, $8C, $30, $7D, $8C
 	db $00
 
 se_wingrepairedpowerup: ; Wing repaired powerup
-	db $E0, $14, $18, $00, $8C, $1C, $7D, $8B
 	db $E0, $2E, $60, $7D, $8C, $00
+	db $E0, $14, $18, $00, $8C, $1C, $7D, $8B
 
 se_conehit: ; Cone hit
 	db $E0, $05, $06, $5A, $B0, $E0, $0A, $24
@@ -3362,11 +3362,12 @@ se_warning1: ; Incoming enemy
 se_warning2: ; Wing damaged
 	db $E0, $26, $30, $00, $A4, $0C, $28, $F9
 	db $B6, $00, $0A, $B9, $0C, $28, $F9, $B6
-	db $00, $0A, $B9, $18, $00, $A4, $E0, $15
-	db $24, $7D, $98, $E0, $14, $20, $7D, $8C
-	db $E0, $16, $40, $7D, $8C, $E0, $15, $0C
-	db $7D, $98, $00, $E0, $0E, $30, $32, $B7
-	db $00
+	db $00, $0A, $B9, $18, $00, $A4
+	db $E0, $15, $24, $7D, $98
+	db $E0, $14, $20, $7D, $8C
+	db $E0, $16, $40, $7D, $8C
+	db $E0, $15, $0C, $7D, $98, $00
+	db $E0, $0E, $30, $32, $B7, $00
 
 se_phantron2landing: ; Phantron 2 landing
 	db $E0, $0D, $06, $78, $89, $04, $00, $89

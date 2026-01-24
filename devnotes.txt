@@ -60,7 +60,7 @@ SMPL_14 DAMAGED
 SMPL_15 TWIN BLASTERS
 SMPL_16 SHIELDS
 SMPL_18 REPAIRED
-
+ 
 SGSOUND5
 SMPL_00 EMERGENCY
 SMPL_01 PREPARE FOR LAUNCH
@@ -94,8 +94,7 @@ cd ..
 
 
 Edit RAM to cheat during testing:
-Enable dual blasters: Set bit 0 of PSHIPFLAGS2 (RAM $000014D9) to $01
-Enable plasma blasters: Set bit 4 of PSHIPFLAGS3 (RAM $000014DA) to $10
-Number of smart bombs: Set SPECWEPCNT (RAM $000015AF)
-
-
+Enable dual blasters: Set bit 0 of PSHIPFLAGS2 (RAM $14D9) to $01
+Enable plasma blasters: Set bit 4 of PSHIPFLAGS3 (RAM $14DA) to $10
+Number of smart bombs: Set SPECWEPCNT (RAM $15AF)
+Immediately mark level cleared: Set LEVELFINISHED (RAM $1FD4) to $01
