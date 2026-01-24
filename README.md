@@ -32,6 +32,18 @@ Other code/repositories of interest:
 
 Here are some pretty screenshots:
 
-...
+![Intro screen](images/starfox-1.png)
 
+![Controller configuration](images/starfox-2.png)
 
+![Level select](images/starfox-3.png)
+
+![Training ](images/starfox-4.png)
+
+![Asteroid Belt](images/starfox-5.png)
+
+![Briefing](images/starfox-6.png)
+
+![Game Over](images/starfox-7.png)
+
+![Continue](images/starfox-8.png)
