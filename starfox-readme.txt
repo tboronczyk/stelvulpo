@@ -1,5 +1,5 @@
 Star Fox (SNES)
-traduko al Esperanto v1.0 (xx/xx/xxxx)
+traduko al Esperanto v1.0 (24/01/2026)
 
 ENKONDUKO
 ---------
@@ -28,13 +28,13 @@ Vi devas posedi fizikan kopion de la kartoĉo de Star Fox.
 Alŝulti ROM-on de videoludo, kiun vi ne posedas, povas 
 esti pirateco.
 
-    Star Fox (USA) (V1.0).sfc
+    Star Fox (USA) (Rev 1).sfc
     CRC32: 06446e7c
     SHA1: 1d1ccfff6b4eb5389c28a91f754c12b7614158c3
 
 HISTORIO
 --------
-v1.0    xx/xx/xxxx
+v1.0    24/01/2026
  - Unua eldono
 
 KONTRIBUANTOJ

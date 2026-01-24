@@ -16,7 +16,7 @@ Development is based of StarFoxForNewModders.
 You *must* own a physical copy of the Star Fox cartridge. Downloading the ROM
 of any game which you do not own is piracy.
 
-  * Star Fox - CRC32 `06446e7c`
+  * Star Fox (USA) (Rev 1) - CRC32 `06446e7c`
 
 ## Development
 
