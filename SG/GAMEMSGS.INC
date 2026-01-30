@@ -1,9 +1,7 @@
 	message	fox,<qiuj wipoj, raportu''>,<--->,other	; (1) <all ships check in!>
-
-	; unused
-	message	fox,<we did it!>,<--->,other	; (2) <we did it!>
-	message	fox,<slippy slippy##>,<--->,other	; (3) <slippy slippy##>
-	message	fox,<go back to the base!>,<--->,other	; (4) <go back to the base!>
+	message	fox,<sukceso''>,<--->,other	; (2) <we did it!>
+	message	fox,<glitqjo glitqjo##>,<--->,other	; (3) <slippy slippy##>
+	message	fox,<reiru al la bazo''>,<--->,other	; (4) <go back to the base!>
 
 	message	falcon,<mi pretas, foks''>,<--->,other	; (5) <ready, fox!>
 	message	falcon,<mi estas kun vi, foks''>,<--->,other	; (6) <i'm with you, fox!>
@@ -21,21 +19,16 @@
 	message	falcon3,<forpafu la brakojn por trafi la korpon''>,<--->,other	; (18) <shoot down its arms to hit its body!>
 	message	falcon,<malrapidixu, foks''>,<--->,other	; (19) <slow it down, fox!>
 	message	falcon,<rulixu'' rulixu''>,<--->,other	; (20) <roll, baby! rock 'n roll!>
-
-	; unused
-	message	falcon,<my ship's messed up###>,<--->,other	; (21) <my ship's messed up###>
-
+	message	falcon,<mia wipo estas difektita###>,<--->,other	; (21) <my ship's messed up###>
 	message	falcon,<hej'' tiu estis mia''>,<--->,other	; (22) <hey! that one was mine!>
 	message	falcon,<movixu'' mi pafas''>,<--->,other	; (23) <bogies, i'm comin' through!>
-
-	; unused
-	message	falcon,<i'll cover your tail!>,<--->,other	; (24) <i'll cover your tail!>
+	message	falcon,<mi gardos vin''>,<--->,other	; (24) <i'll cover your tail!>
 
 	message	rabbit,<jes ja - ek''>,<--->,other	; (25) <yeah - let's go!>
 	message	rabbit,<mi sekvas vin, foks''>,<--->,other	; (26) <i'm behind you, fox!>
 	message	rabbit,<perdixu, fiulo''>,<--->,help	; (27) <get lost, you fiend!>
 	message	rabbit,<dankon''>,<--->,other	; (28) <yeah! thanks!>
-	message	rabbit,<ve'' mi mortos''>,<--->,down	; (29) <aargh!! i'm a goner!>
+	message	rabbit,<aj'' mi mortos''>,<--->,down	; (29) <aargh!! i'm a goner!>
 	message	rabbit,<ni frakasu ilin''>,<--->,other	; (30) <let's smash 'em!>
 	message	rabbit,<mi trafis'' mi trafis''>,<--->,other	; (31) <i got one! i got one!!>
 	message	rabbit,<gustumu mian pafilon''>,<--->,other	; (32) <take this, enemy brute!>
@@ -53,9 +46,7 @@
 
 	message	rabbit,<hej'' tiu estis mia''>,<--->,other	; (42) <hey! he was mine!>
 	message	rabbit,<movixu''>,<--->,other	; (43) <out of my way!>
-
-	; unused
-	message	rabbit,<i'm off your starboard!>,<--->,other	; (44) <i'm off your starboard!>
+	message	rabbit,<mi flugas dekstre de vi''>,<--->,other	; (44) <i'm off your starboard!>
 
 	message	frog,<bone''>,<--->,other	; (45) <ok!!>
 	message	frog,<kvak'' mi flugas malanta!e''>,<--->,other	; (46) <ribbit! i'll bring up the rear, fox!>
@@ -72,21 +63,13 @@
 	message	frog,<qu ni retirixu?>,<--->,other	; (57) <let's turn back, okay?!>
 	message	frog,<ni estu singardaj''>,<--->,other	; (58) <let's be careful!>
 	message	frog,<io alkroqixas al mi''>,<--->,other	; (59) <something's sticking to me!>
-
-	; unused
-	message	frog,<i c-c-couldn't go, fox!>,<--->,other	; (60) <i c-c-couldn't go, fox!>
-
+	message	frog,<mi n-n-ne povis iri, foks''>,<--->,other	; (60) <i c-c-couldn't go, fox!>
 	message	frog,<hej'' ne estu t-t-tiel avara''>,<--->,other	; (61) <hey! don't be so g-g-greedy!>
 	message	frog,<for, idioto- idistoj''>,<--->,other	; (62) <c-c-clear out, astro-geeks!>
-
-	; unused
-	message	frog,<hope there's no more!>,<--->,other	; (63) <hope there's no more!>
-
+	message	frog,<espereble ne estos pli''>,<--->,other	; (63) <hope there's no more!>
 	message	frog,<qu vi vidis?>,<--->,other	; (64) <did you see me?>
 
-	;unused
-	message	rabbit,<i can't tell which is real!!>,<--->,other	; (65) <i can't tell which is real!!>
-
+	message	rabbit,<mi ne scias, kiu estas reala''>,<--->,other	; (65) <i can't tell which is real!!>
 	message	falcon,<ni eniru''>,<--->,other	; (66) <let's head in!>
 	message	rabbit,<mi sekvos vin''>,<--->,other	; (67) <i'll follow you in!>
 	message	frog,<qu ni eniru?>,<--->,other	; (68) <should we go in?!>
@@ -113,7 +96,7 @@
 	message	fox,<teamo stelvulpo, nia lasta espero estas kontra!ataki venenon'' bonwancon''>,<--->,other	; (88) <star fox team, our last resort is to counter attack venom! good luck!>
 	message	fox,<la armeo de androso intencas konstrui militbazon en qi tiu loko'' detruu ilian rokrompilon''>,<--->,other	; (89) <andross's forces intend to build a base in this area! destroy their rock crusher!>
 	message	fox,<la kosma militwiparo konsistas el fortaj batalwipoj'' detruu iliajn fontojn de energio''>,<--->,other	; (90) <the space armada consists of powerful battleships! destroy their energy cores!>
-	message	fox,<nepre uzu viajn bremsojn, se vi tro rapidas'' atentu pri miaj arvingoj''>,<--->,other	; (91) <be sure to use your retros if you're going too fast! be careful with my arwings!>
+	message	fox,<nepre uzu la bremsojn, se vi tro rapidas'' zorgu pri miaj arvingoj''>,<--->,other	; (91) <be sure to use your retros if you're going too fast! be careful with my arwings!>
 	message	fox,<androso kawas sin sur veneno'' foks, vi devas trovi lian kernan cerbon kaj detrui xin''>,<--->,other	; (92) <andross is hiding on venom! fox, you must find his core brain and destroy it!>
 
 	message	fox,<        KORNERIO - LA BAZO>,<--->,other	; (93) <CORNERIA - THE BASE>
@@ -133,13 +116,13 @@
 	message	fox,<la risursoplena planedo titanio estas okupita'' rekaptu la veteroregan aparaton''>,<--->,other	; (106) <corneria's resource world has been overrun! you must re-take the weather control unit!>
 	message	fox,<kiel stirixas la arvingoj?       se amebo alkroqas sin al via wipo, premu l a! r por deskui xin#>,<--->,other	; (107) <how are the arwings handling? if an amoeba clings to your ship, use l or r to get rid of it#>
 	message	fox,<vi elektis la trian trakon### tio estas bona elekto por surprizi venenon''>,<--->,other	; (108) <you've chosen course three###  a good choice to take venom by surprise!>
-	message	fox,<premu l a! r por eskapi de la malamika batalwipa tirradio''>,<--->,other	; (109) <use the l or r button to escape the tractor beam of the enemy battleship! you can do it, fox!>
-	message	fox,<androso prenis kontrolon de la grandaj bestoj de fortuno'' estu zorgema, foks''>,<--->,other	; (110) <andross has taken control of the huge creatures who live on fortuna! take care, fox!>
+	message	fox,<premu l a! r por eskapi de la tirradio de la malamika batalwipo''>,<--->,other	; (109) <use the l or r button to escape the tractor beam of the enemy battleship! you can do it, fox!>
+	message	fox,<androso ekregis la grandajn bestojn de fortuno'' estu zorgema, foks''>,<--->,other	; (110) <andross has taken control of the huge creatures who live on fortuna! take care, fox!>
 	message	fox,<via teamo bone progresas, foks'' mi esperas, ke vi zorgas pri miaj arvingoj'' ek al makbeto''>,<--->,other	; (111) <your team is doing well, fox! i hope you're taking good care of my arwings! go for macbeth!>
 	message	fox,<la kava interno de makbeto tre ta!gas por militbazo'' malebligu, ke androso konstruos tie''>,<--->,other	; (112) <the hollow interior of macbeth is ideal for a base! prevent andross from building here!>
 	message	fox,<jen la kosma tombejo, kreita de la eksperimentoj de androso, kie malaperis via patro, foks''>,<--->,other	; (113) <this space grave yard, created by andross's experiments, is where your father vanished, fox!>
 	message	fox,<qu qiuj bonstatas, foks? vi kawe alvenas al la bazo de veneno''>,<--->,other	; (114) <is everyone all right, fox?! you're on course to sneak into venom's back door!>
-	message	fox,<respondu, arvingoj'' kie vi estas, foks? ni bezonas vin protekti kornerion''>,<--->,other	; (115) <come in, arwings!  fox, where are you?!  we need you to protect corneria!>
+	message	fox,<respondu, arvingoj'' kie vi estas, foks? ni bezonas vin por protekti kornerion''>,<--->,other	; (115) <come in, arwings!  fox, where are you?!  we need you to protect corneria!>
 	message	fox,<vi persistis xis nun### venki androson estas via sorto'' ni dependas je vi, foks''>,<--->,other	; (116) <you've made it this far### it's your fate to destroy andross! we're counting on you, fox!>
 
 	message	falcon,<mi detruos la aviportan wipon''>,<--->,other	; (117) <the attack-carrier will be mine!>

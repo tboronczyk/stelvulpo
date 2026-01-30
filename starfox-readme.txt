@@ -1,5 +1,5 @@
 Star Fox (SNES)
-traduko al Esperanto v1.0 (24/01/2026)
+traduko al Esperanto v1.1 (30/01/2026)
 
 ENKONDUKO
 ---------
@@ -24,9 +24,9 @@ Veneno, kaj detrui la Kernan Cerbon por atingi la venkon.
 
 INFORMOJ PRI ROM
 ----------------
-Vi devas posedi fizikan kopion de la kartoĉo de Star Fox.
-Alŝulti ROM-on de videoludo, kiun vi ne posedas, povas 
-esti pirateco.
+Vi devas posedi fizikan ekzempleron de la kartoĉo de
+Star Fox. Elŝuti ROM-on de videoludo, kiun vi ne posedas,
+povas esti piratado.
 
     Star Fox (USA) (Rev 1).sfc
     CRC32: 06446e7c
@@ -36,6 +36,9 @@ HISTORIO
 --------
 v1.0    24/01/2026
  - Unua eldono
+
+v1.1    30/01/2026
+ - Ĝustigis erarojn
 
 KONTRIBUANTOJ
 -------------
