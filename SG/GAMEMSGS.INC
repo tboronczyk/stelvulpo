@@ -40,10 +40,7 @@
 	message	rabbit3,<forpafu la brakojn por trafi la korpon''>,<--->,other	; (38) <shoot down its arms to hit its body!>
 	message	rabbit,<la bremson'' uzu la bremson''>,<--->,other	; (39) <retros! fire retros!>
 	message	rabbit,<rulixu'' deskuu xin''>,<--->,other	; (40) <roll over! shake it off!>
-
-	;unused
-	message	rabbit,<pick me up on your way back!>,<--->,other	; (41) <pick me up on your way back!>
-
+	message	rabbit3,<mi atendos vin qi tie xis vi revenos''>,<--->,other	; (41) <pick me up on your way back!>
 	message	rabbit,<hej'' tiu estis mia''>,<--->,other	; (42) <hey! he was mine!>
 	message	rabbit,<movixu''>,<--->,other	; (43) <out of my way!>
 	message	rabbit,<mi flugas dekstre de vi''>,<--->,other	; (44) <i'm off your starboard!>

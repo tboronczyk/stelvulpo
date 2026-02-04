@@ -1,5 +1,5 @@
 	IFEQ	GERMAN
-pausetxt	TXT	14,<PA)ZITA>	; <PAUSED>
+pausetxt	TXT	14,<PA)ZO>	; <PAUSED>
 	ELSEIF
 pausetxt	TXT	14,<PAUSE>
 	ENDC
